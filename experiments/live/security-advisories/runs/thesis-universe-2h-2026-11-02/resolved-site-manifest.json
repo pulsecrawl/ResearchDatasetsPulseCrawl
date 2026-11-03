@@ -1,0 +1,218 @@
+{
+  "description": "Raw-HTTP-reviewed public sources for the bounded local live study. Access is checked again immediately before every execution.",
+  "displayName": "Security advisories",
+  "schemaProfile": "advisory",
+  "schemaVersion": 2,
+  "sites": [
+    {
+      "constantFields": {
+        "vendor": "Apple Security Releases"
+      },
+      "discoveryPatterns": [
+        "^https?://(?:www\\.)?support\\.apple\\.com/.+"
+      ],
+      "hosts": [
+        "support.apple.com"
+      ],
+      "id": "security-apple",
+      "listingUrl": "https://support.apple.com/en-us/100100",
+      "maxDepth": 1,
+      "maxUrlsPerExecution": 4,
+      "minimumOriginDelaySeconds": 5,
+      "name": "Apple Security Releases",
+      "representativeDetailUrl": "https://support.apple.com/en-us/102657",
+      "seedUrls": [
+        "https://support.apple.com/en-us/100100",
+        "https://support.apple.com/en-us/102657"
+      ],
+      "templatePatterns": [
+        "https://support.apple.com/*/[0-9]*"
+      ]
+    },
+    {
+      "constantFields": {
+        "vendor": "Ubuntu Security Notices"
+      },
+      "discoveryPatterns": [
+        "^https?://(?:www\\.)?ubuntu\\.com/.+"
+      ],
+      "hosts": [
+        "ubuntu.com"
+      ],
+      "id": "security-ubuntu",
+      "listingUrl": "https://ubuntu.com/security/notices",
+      "maxDepth": 1,
+      "maxUrlsPerExecution": 4,
+      "minimumOriginDelaySeconds": 5,
+      "name": "Ubuntu Security Notices",
+      "representativeDetailUrl": "https://ubuntu.com/security/notices/USN-8957-1",
+      "seedUrls": [
+        "https://ubuntu.com/security/notices",
+        "https://ubuntu.com/security/notices/USN-8957-1"
+      ],
+      "templatePatterns": [
+        "https://ubuntu.com/security/notices/USN-*"
+      ]
+    },
+    {
+      "constantFields": {
+        "vendor": "Chrome Releases"
+      },
+      "discoveryPatterns": [
+        "^https?://(?:www\\.)?chromereleases\\.googleblog\\.com/.+"
+      ],
+      "hosts": [
+        "chromereleases.googleblog.com"
+      ],
+      "id": "security-chrome-releases",
+      "listingUrl": "https://chromereleases.googleblog.com/",
+      "maxDepth": 1,
+      "maxUrlsPerExecution": 4,
+      "minimumOriginDelaySeconds": 5,
+      "name": "Chrome Releases",
+      "representativeDetailUrl": "https://chromereleases.googleblog.com/2026/10/chrome-for-android-update_0160078013.html",
+      "seedUrls": [
+        "https://chromereleases.googleblog.com/",
+        "https://chromereleases.googleblog.com/2026/10/chrome-for-android-update_0160078013.html"
+      ],
+      "templatePatterns": [
+        "https://chromereleases.googleblog.com/????/??/*.html*"
+      ]
+    },
+    {
+      "constantFields": {
+        "vendor": "Mozilla Security Advisories"
+      },
+      "discoveryPatterns": [
+        "^https?://(?:www\\.)?mozilla\\.org/.+"
+      ],
+      "hosts": [
+        "www.mozilla.org"
+      ],
+      "id": "security-mozilla",
+      "listingUrl": "https://www.mozilla.org/en-US/security/advisories/",
+      "maxDepth": 1,
+      "maxUrlsPerExecution": 4,
+      "minimumOriginDelaySeconds": 5,
+      "name": "Mozilla Security Advisories",
+      "representativeDetailUrl": "https://www.mozilla.org/en-US/security/advisories/mfsa2026-122/",
+      "seedUrls": [
+        "https://www.mozilla.org/en-US/security/advisories/",
+        "https://www.mozilla.org/en-US/security/advisories/mfsa2026-122/"
+      ],
+      "templatePatterns": [
+        "https://www.mozilla.org/*/security/advisories/mfsa*/"
+      ]
+    },
+    {
+      "constantFields": {
+        "vendor": "Oracle Security Alerts"
+      },
+      "discoveryPatterns": [
+        "^https?://(?:www\\.)?oracle\\.com/.+"
+      ],
+      "hosts": [
+        "www.oracle.com"
+      ],
+      "id": "security-oracle",
+      "listingUrl": "https://www.oracle.com/security-alerts/",
+      "maxDepth": 1,
+      "maxUrlsPerExecution": 4,
+      "minimumOriginDelaySeconds": 5,
+      "name": "Oracle Security Alerts",
+      "representativeDetailUrl": "https://www.oracle.com/security-alerts/alert-cve-2026-109618.html",
+      "seedUrls": [
+        "https://www.oracle.com/security-alerts/",
+        "https://www.oracle.com/security-alerts/alert-cve-2026-109618.html"
+      ],
+      "templateMappings": {
+        "css": {
+          "title": [
+            "title",
+            "main h1",
+            "h1"
+          ]
+        }
+      },
+      "templatePatterns": [
+        "https://www.oracle.com/security-alerts/alert-*.html*"
+      ]
+    },
+    {
+      "constantFields": {
+        "vendor": "GitHub Security Advisories"
+      },
+      "discoveryPatterns": [
+        "^https?://(?:www\\.)?github\\.com/.+"
+      ],
+      "hosts": [
+        "github.com"
+      ],
+      "id": "security-github",
+      "listingUrl": "https://github.com/advisories",
+      "maxDepth": 1,
+      "maxUrlsPerExecution": 4,
+      "minimumOriginDelaySeconds": 5,
+      "name": "GitHub Security Advisories",
+      "representativeDetailUrl": "https://github.com/advisories/GHSA-m65p-9j7q-6w33",
+      "seedUrls": [
+        "https://github.com/advisories",
+        "https://github.com/advisories/GHSA-m65p-9j7q-6w33"
+      ],
+      "templatePatterns": [
+        "https://github.com/advisories/*"
+      ]
+    },
+    {
+      "constantFields": {
+        "vendor": "GitLab Releases"
+      },
+      "discoveryPatterns": [
+        "^https?://(?:www\\.)?docs\\.gitlab\\.com/.+"
+      ],
+      "hosts": [
+        "docs.gitlab.com"
+      ],
+      "id": "security-gitlab",
+      "listingUrl": "https://docs.gitlab.com/releases/",
+      "maxDepth": 1,
+      "maxUrlsPerExecution": 4,
+      "minimumOriginDelaySeconds": 5,
+      "name": "GitLab Releases",
+      "representativeDetailUrl": "https://docs.gitlab.com/releases/19/",
+      "seedUrls": [
+        "https://docs.gitlab.com/releases/",
+        "https://docs.gitlab.com/releases/19/"
+      ],
+      "templatePatterns": [
+        "https://docs.gitlab.com/releases/??/"
+      ]
+    },
+    {
+      "constantFields": {
+        "vendor": "Node.js Security Releases"
+      },
+      "discoveryPatterns": [
+        "^https?://(?:www\\.)?nodejs\\.org/.+"
+      ],
+      "hosts": [
+        "nodejs.org"
+      ],
+      "id": "security-nodejs",
+      "listingUrl": "https://nodejs.org/en/blog/vulnerability",
+      "maxDepth": 1,
+      "maxUrlsPerExecution": 4,
+      "minimumOriginDelaySeconds": 5,
+      "name": "Node.js Security Releases",
+      "representativeDetailUrl": "https://nodejs.org/en/blog/vulnerability/october-2026-security-releases",
+      "seedUrls": [
+        "https://nodejs.org/en/blog/vulnerability",
+        "https://nodejs.org/en/blog/vulnerability/october-2026-security-releases"
+      ],
+      "templatePatterns": [
+        "https://nodejs.org/*/blog/vulnerability/*"
+      ]
+    }
+  ],
+  "studyId": "security-advisories"
+}

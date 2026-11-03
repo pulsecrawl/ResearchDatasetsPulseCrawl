@@ -1,0 +1,34 @@
+{
+  "id": "live-security-advisories",
+  "kind": "live",
+  "title": "Recurring security advisories study",
+  "aliases": [
+    "security-advisories"
+  ],
+  "seed": 4703,
+  "parameters": {
+    "study": "security-advisories",
+    "manifest": "experiments/live/security-advisories/input/sites.json",
+    "phase": "two-hour",
+    "phases": {
+      "two-hour": {
+        "executions": 4,
+        "intervalMinutes": 30,
+        "maxUrlsPerSitePerExecution": 1500,
+        "maxDepth": 5,
+        "minimumOriginDelaySeconds": 0.5,
+        "overrideSiteLimits": true,
+        "nativeScheduler": true,
+        "startAtNextMinute": true,
+        "maxDurationSeconds": 1680,
+        "schedulerPollSeconds": 5,
+        "requiredPackageVersion": "0.4.0"
+      }
+    },
+    "minimumOriginDelaySeconds": 0.5,
+    "maxUrlsPerSitePerExecution": 1500,
+    "maxDepth": 5,
+    "retainResponseBodies": false
+  }
+}
+

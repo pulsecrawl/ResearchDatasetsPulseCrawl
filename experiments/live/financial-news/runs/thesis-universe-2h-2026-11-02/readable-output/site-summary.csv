@@ -1,0 +1,21 @@
+"run_id","study","site_id","site_name","executions","successful_executions","published_rows","unique_published_urls","complete_rows","complete_rows_percent","pages_fetched","pages_failed","pages_discovered","records_extracted","record_pages","navigation_pages","ignored_pages","unmatched_pages","robots_blocked"
+"20261102T235744Z-live-financial-news-5a97a19d","financial-news","finance-bnn-bloomberg","BNN Bloomberg",4,4,709,709,709,100,3761,7,4234,2811,2811,950,0,0,0
+"20261102T235744Z-live-financial-news-5a97a19d","financial-news","finance-business-insider","Business Insider Markets",4,4,723,722,723,100,5900,0,5992,2880,2876,3024,0,0,48
+"20261102T235744Z-live-financial-news-5a97a19d","financial-news","finance-cbs-moneywatch","CBS MoneyWatch",4,4,104,104,104,100,5874,8,5992,416,416,5394,0,64,0
+"20261102T235744Z-live-financial-news-5a97a19d","financial-news","finance-cnbc","CNBC Markets",4,4,757,752,757,100,4487,0,5992,2644,2624,1863,0,0,0
+"20261102T235744Z-live-financial-news-5a97a19d","financial-news","finance-daily-upside","The Daily Upside",4,4,878,878,878,100,5684,0,5992,3356,3356,2328,0,0,0
+"20261102T235744Z-live-financial-news-5a97a19d","financial-news","finance-economic-times","Economic Times Markets",4,4,214,214,214,100,5647,8,5992,805,805,4842,0,0,0
+"20261102T235744Z-live-financial-news-5a97a19d","financial-news","finance-financial-post","Financial Post",4,4,177,89,177,100,4008,1075,5992,708,356,3652,0,0,0
+"20261102T235744Z-live-financial-news-5a97a19d","financial-news","finance-finbold","Finbold",4,4,903,903,903,100,4981,53,5992,3174,3174,1807,0,0,0
+"20261102T235744Z-live-financial-news-5a97a19d","financial-news","finance-fortune","Fortune Finance",4,4,601,601,601,100,5475,95,5992,2283,2283,3192,0,0,0
+"20261102T235744Z-live-financial-news-5a97a19d","financial-news","finance-fox-business","Fox Business Markets",4,4,63,63,63,100,4721,18,5992,244,244,4477,0,0,0
+"20261102T235744Z-live-financial-news-5a97a19d","financial-news","finance-fxstreet","FXStreet",4,4,150,150,150,100,5265,47,5992,514,514,4751,0,0,0
+"20261102T235744Z-live-financial-news-5a97a19d","financial-news","finance-guardian-business","The Guardian Business",4,4,24,24,24,100,5832,40,5992,96,96,5736,0,0,0
+"20261102T235744Z-live-financial-news-5a97a19d","financial-news","finance-kiplinger","Kiplinger",4,4,398,397,398,100,5620,0,5992,1576,1572,4044,0,4,0
+"20261102T235744Z-live-financial-news-5a97a19d","financial-news","finance-kitco","Kitco News",4,4,226,226,226,100,5954,16,5992,888,888,5066,0,0,0
+"20261102T235744Z-live-financial-news-5a97a19d","financial-news","finance-mint","Mint Markets",4,4,823,819,823,100,5545,20,5992,2944,2933,2572,0,40,0
+"20261102T235744Z-live-financial-news-5a97a19d","financial-news","finance-moneyweek","MoneyWeek",4,4,325,313,325,100,5761,3,5992,1229,1183,4578,0,0,0
+"20261102T235744Z-live-financial-news-5a97a19d","financial-news","finance-motley-fool","The Motley Fool",4,4,175,175,175,100,5708,16,5992,670,670,5038,0,0,92
+"20261102T235744Z-live-financial-news-5a97a19d","financial-news","finance-sherwood","Sherwood Markets",4,4,650,650,650,100,5440,164,5992,2454,2454,2986,0,0,0
+"20261102T235744Z-live-financial-news-5a97a19d","financial-news","finance-tradingview","TradingView News",4,4,277,277,277,100,4933,427,5992,624,624,4309,0,0,9
+"20261102T235744Z-live-financial-news-5a97a19d","financial-news","finance-yahoo","Yahoo Finance",4,4,65,65,65,100,5730,13,5992,258,258,5472,0,0,24

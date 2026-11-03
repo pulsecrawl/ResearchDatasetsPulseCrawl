@@ -1,0 +1,21 @@
+"run_id","study","site_id","site_name","executions","successful_executions","published_rows","unique_published_urls","complete_rows","complete_rows_percent","pages_fetched","pages_failed","pages_discovered","records_extracted","record_pages","navigation_pages","ignored_pages","unmatched_pages","robots_blocked"
+"20261102T235744Z-live-us-newspapers-28fdac31","us-newspapers","us-albuquerque-journal","Albuquerque Journal",4,4,1413,1413,1413,100,5979,0,5992,5619,5619,360,0,0,0
+"20261102T235744Z-live-us-newspapers-28fdac31","us-newspapers","us-anchorage-daily-news","Anchorage Daily News",4,4,1015,1015,1015,100,4154,78,5992,3481,3481,673,0,0,0
+"20261102T235744Z-live-us-newspapers-28fdac31","us-newspapers","us-atlanta-journal-constitution","The Atlanta Journal-Constitution",4,4,911,908,911,100,4668,11,5992,3086,3075,1583,0,10,0
+"20261102T235744Z-live-us-newspapers-28fdac31","us-newspapers","us-baltimore-sun","The Baltimore Sun",4,4,1183,1183,1183,100,5872,72,5992,4691,4691,1181,0,0,0
+"20261102T235744Z-live-us-newspapers-28fdac31","us-newspapers","us-boston-globe","The Boston Globe",4,4,504,504,504,100,3143,12,5992,1823,1823,1320,0,0,0
+"20261102T235744Z-live-us-newspapers-28fdac31","us-newspapers","us-boston-herald","Boston Herald",4,4,1308,1308,1308,100,5920,8,5992,5162,5162,758,0,0,0
+"20261102T235744Z-live-us-newspapers-28fdac31","us-newspapers","us-chicago-tribune","Chicago Tribune",4,4,730,730,730,100,5493,16,5992,2866,2866,2627,0,0,0
+"20261102T235744Z-live-us-newspapers-28fdac31","us-newspapers","us-dallas-morning-news","The Dallas Morning News",4,4,836,836,836,100,5633,3,5992,3165,3165,2468,0,0,0
+"20261102T235744Z-live-us-newspapers-28fdac31","us-newspapers","us-denver-post","The Denver Post",4,4,1256,1256,1256,100,5706,8,5992,4656,4656,1050,0,0,0
+"20261102T235744Z-live-us-newspapers-28fdac31","us-newspapers","us-houston-chronicle","Houston Chronicle",4,4,1042,1041,1042,100,5309,38,5992,3908,3905,1404,0,0,0
+"20261102T235744Z-live-us-newspapers-28fdac31","us-newspapers","us-los-angeles-times","Los Angeles Times",4,4,1008,1008,1008,100,5876,0,5992,3889,3889,1987,0,0,0
+"20261102T235744Z-live-us-newspapers-28fdac31","us-newspapers","us-newsday","Newsday",4,4,1295,1295,1295,100,5592,72,5992,4167,4167,1380,0,45,0
+"20261102T235744Z-live-us-newspapers-28fdac31","us-newspapers","us-nola","NOLA.com",4,4,1151,1151,1151,100,4615,7,5992,4197,4197,418,0,0,384
+"20261102T235744Z-live-us-newspapers-28fdac31","us-newspapers","us-orange-county-register","Orange County Register",4,4,1282,1282,1282,100,5936,0,5992,4976,4976,960,0,0,0
+"20261102T235744Z-live-us-newspapers-28fdac31","us-newspapers","us-philadelphia-inquirer","The Philadelphia Inquirer",4,4,1102,1102,1102,100,4694,4,5992,3744,3744,950,0,0,3
+"20261102T235744Z-live-us-newspapers-28fdac31","us-newspapers","us-salt-lake-tribune","The Salt Lake Tribune",4,4,1101,1101,1101,100,4272,87,5992,3662,3662,610,0,0,0
+"20261102T235744Z-live-us-newspapers-28fdac31","us-newspapers","us-san-diego-union-tribune","San Diego Union-Tribune",4,4,1298,1298,1298,100,5964,0,5992,5162,5162,802,0,0,0
+"20261102T235744Z-live-us-newspapers-28fdac31","us-newspapers","us-san-francisco-chronicle","San Francisco Chronicle",4,4,970,970,970,100,5068,32,5992,3648,3648,1416,0,4,4
+"20261102T235744Z-live-us-newspapers-28fdac31","us-newspapers","us-seattle-times","The Seattle Times",4,4,610,610,610,100,5150,86,5992,2379,2379,2771,0,0,0
+"20261102T235744Z-live-us-newspapers-28fdac31","us-newspapers","us-tampa-bay-times","Tampa Bay Times",4,4,1107,1107,1107,100,4018,0,5992,3230,3230,788,0,0,0

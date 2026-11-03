@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "categories": [
+    {
+      "id": "mexican-newspapers",
+      "name": "Mexican newspapers",
+      "schemaProfile": "article",
+      "sites": 19,
+      "executions": 4,
+      "intervalMinutes": 30
+    },
+    {
+      "id": "us-newspapers",
+      "name": "United States newspapers",
+      "schemaProfile": "article",
+      "sites": 20,
+      "executions": 4,
+      "intervalMinutes": 30
+    },
+    {
+      "id": "financial-news",
+      "name": "Financial and stock news",
+      "schemaProfile": "article",
+      "sites": 20,
+      "executions": 4,
+      "intervalMinutes": 30
+    },
+    {
+      "id": "general-commerce",
+      "name": "General commerce",
+      "schemaProfile": "product",
+      "sites": 8,
+      "executions": 4,
+      "intervalMinutes": 30
+    },
+    {
+      "id": "security-advisories",
+      "name": "Security advisories",
+      "schemaProfile": "advisory",
+      "sites": 8,
+      "executions": 4,
+      "intervalMinutes": 30
+    }
+  ]
+}

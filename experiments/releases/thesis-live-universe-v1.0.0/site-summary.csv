@@ -1,0 +1,76 @@
+"run_id","study","site_id","site_name","executions","successful_executions","published_rows","unique_published_urls","complete_rows","complete_rows_percent","pages_fetched","pages_failed","pages_discovered","records_extracted","record_pages","navigation_pages","ignored_pages","unmatched_pages","robots_blocked"
+"20261102T235744Z-live-financial-news-5a97a19d","financial-news","finance-bnn-bloomberg","BNN Bloomberg",4,4,709,709,709,100,3761,7,4234,2811,2811,950,0,0,0
+"20261102T235744Z-live-financial-news-5a97a19d","financial-news","finance-business-insider","Business Insider Markets",4,4,723,722,723,100,5900,0,5992,2880,2876,3024,0,0,48
+"20261102T235744Z-live-financial-news-5a97a19d","financial-news","finance-cbs-moneywatch","CBS MoneyWatch",4,4,104,104,104,100,5874,8,5992,416,416,5394,0,64,0
+"20261102T235744Z-live-financial-news-5a97a19d","financial-news","finance-cnbc","CNBC Markets",4,4,757,752,757,100,4487,0,5992,2644,2624,1863,0,0,0
+"20261102T235744Z-live-financial-news-5a97a19d","financial-news","finance-daily-upside","The Daily Upside",4,4,878,878,878,100,5684,0,5992,3356,3356,2328,0,0,0
+"20261102T235744Z-live-financial-news-5a97a19d","financial-news","finance-economic-times","Economic Times Markets",4,4,214,214,214,100,5647,8,5992,805,805,4842,0,0,0
+"20261102T235744Z-live-financial-news-5a97a19d","financial-news","finance-financial-post","Financial Post",4,4,177,89,177,100,4008,1075,5992,708,356,3652,0,0,0
+"20261102T235744Z-live-financial-news-5a97a19d","financial-news","finance-finbold","Finbold",4,4,903,903,903,100,4981,53,5992,3174,3174,1807,0,0,0
+"20261102T235744Z-live-financial-news-5a97a19d","financial-news","finance-fortune","Fortune Finance",4,4,601,601,601,100,5475,95,5992,2283,2283,3192,0,0,0
+"20261102T235744Z-live-financial-news-5a97a19d","financial-news","finance-fox-business","Fox Business Markets",4,4,63,63,63,100,4721,18,5992,244,244,4477,0,0,0
+"20261102T235744Z-live-financial-news-5a97a19d","financial-news","finance-fxstreet","FXStreet",4,4,150,150,150,100,5265,47,5992,514,514,4751,0,0,0
+"20261102T235744Z-live-financial-news-5a97a19d","financial-news","finance-guardian-business","The Guardian Business",4,4,24,24,24,100,5832,40,5992,96,96,5736,0,0,0
+"20261102T235744Z-live-financial-news-5a97a19d","financial-news","finance-kiplinger","Kiplinger",4,4,398,397,398,100,5620,0,5992,1576,1572,4044,0,4,0
+"20261102T235744Z-live-financial-news-5a97a19d","financial-news","finance-kitco","Kitco News",4,4,226,226,226,100,5954,16,5992,888,888,5066,0,0,0
+"20261102T235744Z-live-financial-news-5a97a19d","financial-news","finance-mint","Mint Markets",4,4,823,819,823,100,5545,20,5992,2944,2933,2572,0,40,0
+"20261102T235744Z-live-financial-news-5a97a19d","financial-news","finance-moneyweek","MoneyWeek",4,4,325,313,325,100,5761,3,5992,1229,1183,4578,0,0,0
+"20261102T235744Z-live-financial-news-5a97a19d","financial-news","finance-motley-fool","The Motley Fool",4,4,175,175,175,100,5708,16,5992,670,670,5038,0,0,92
+"20261102T235744Z-live-financial-news-5a97a19d","financial-news","finance-sherwood","Sherwood Markets",4,4,650,650,650,100,5440,164,5992,2454,2454,2986,0,0,0
+"20261102T235744Z-live-financial-news-5a97a19d","financial-news","finance-tradingview","TradingView News",4,4,277,277,277,100,4933,427,5992,624,624,4309,0,0,9
+"20261102T235744Z-live-financial-news-5a97a19d","financial-news","finance-yahoo","Yahoo Finance",4,4,65,65,65,100,5730,13,5992,258,258,5472,0,0,24
+"20261102T235744Z-live-general-commerce-3d7f626e","general-commerce","commerce-dsw","DSW",4,4,624,166,624,100,5952,8,5996,624,624,5328,0,0,0
+"20261102T235744Z-live-general-commerce-3d7f626e","general-commerce","commerce-fashion-nova","Fashion Nova",4,4,2963,1169,2963,100,4248,0,5996,2963,2963,1281,0,4,0
+"20261102T235744Z-live-general-commerce-3d7f626e","general-commerce","commerce-gap","Gap",4,4,1582,716,1582,100,4051,0,5996,1582,1582,2395,0,74,0
+"20261102T235744Z-live-general-commerce-3d7f626e","general-commerce","commerce-nike","Nike",4,4,1916,599,1916,100,5115,0,5996,1916,1916,3047,0,152,0
+"20261102T235744Z-live-general-commerce-3d7f626e","general-commerce","commerce-puma","PUMA",4,4,6869,1185,6869,100,5233,11,5996,6869,4095,1134,0,4,0
+"20261102T235744Z-live-general-commerce-3d7f626e","general-commerce","commerce-quince","Quince",4,4,5372,803,5372,100,4753,4,5996,5372,2735,2018,0,0,0
+"20261102T235744Z-live-general-commerce-3d7f626e","general-commerce","commerce-spanx","Spanx",4,4,112,28,112,100,3842,22,5996,112,112,3730,0,0,0
+"20261102T235744Z-live-general-commerce-3d7f626e","general-commerce","commerce-ulta-beauty","Ulta Beauty",4,4,194,95,194,100,2737,4,5996,194,194,2539,0,4,0
+"20261102T235744Z-live-mexican-newspapers-17153969","mexican-newspapers","mx-el-economista","El Economista",4,4,1168,1168,1168,100,5976,20,5992,4618,4618,1278,0,80,4
+"20261102T235744Z-live-mexican-newspapers-17153969","mexican-newspapers","mx-el-financiero","El Financiero",4,4,1189,1189,1189,100,4972,28,5992,3915,3915,1057,0,0,0
+"20261102T235744Z-live-mexican-newspapers-17153969","mexican-newspapers","mx-el-heraldo","El Heraldo de México",4,4,451,451,451,100,5613,359,5992,1794,1794,3819,0,0,0
+"20261102T235744Z-live-mexican-newspapers-17153969","mexican-newspapers","mx-el-horizonte","El Horizonte",4,4,570,570,570,100,2476,40,5992,1921,1921,555,0,0,0
+"20261102T235744Z-live-mexican-newspapers-17153969","mexican-newspapers","mx-el-imparcial","El Imparcial",4,4,817,817,817,100,4241,0,5992,2616,2616,1625,0,0,0
+"20261102T235744Z-live-mexican-newspapers-17153969","mexican-newspapers","mx-el-informador","El Informador",4,4,970,970,970,100,5839,12,5992,3430,3430,2409,0,0,0
+"20261102T235744Z-live-mexican-newspapers-17153969","mexican-newspapers","mx-el-manana-nuevo-laredo","El Mañana de Nuevo Laredo",4,4,446,446,446,100,5377,12,5992,1627,1627,3750,0,0,4
+"20261102T235744Z-live-mexican-newspapers-17153969","mexican-newspapers","mx-el-porvenir","El Porvenir",4,4,853,853,853,100,5469,4,5992,2973,2973,2496,0,0,0
+"20261102T235744Z-live-mexican-newspapers-17153969","mexican-newspapers","mx-excelsior","Excélsior",4,4,1162,1162,1162,100,5988,0,5992,4598,4598,1374,0,16,0
+"20261102T235744Z-live-mexican-newspapers-17153969","mexican-newspapers","mx-la-cronica","La Crónica de Hoy",4,4,397,397,397,100,1984,112,2364,1556,1556,428,0,0,0
+"20261102T235744Z-live-mexican-newspapers-17153969","mexican-newspapers","mx-la-opcion","La Opción de Chihuahua",4,4,1084,1084,1084,100,5948,4,5992,4320,4320,1628,0,0,0
+"20261102T235744Z-live-mexican-newspapers-17153969","mexican-newspapers","mx-la-razon","La Razón de México",4,4,1338,1338,1338,100,5900,4,5992,4668,4668,1232,0,0,0
+"20261102T235744Z-live-mexican-newspapers-17153969","mexican-newspapers","mx-la-silla-rota","La Silla Rota",4,4,579,579,579,100,5560,7,5992,2023,2023,3537,0,0,4
+"20261102T235744Z-live-mexican-newspapers-17153969","mexican-newspapers","mx-noroeste","Noroeste",4,4,955,955,955,100,5952,44,5992,3647,3647,2305,0,0,0
+"20261102T235744Z-live-mexican-newspapers-17153969","mexican-newspapers","mx-norte-digital","Norte Digital",4,4,245,245,245,100,5496,420,5992,980,980,4516,0,0,0
+"20261102T235744Z-live-mexican-newspapers-17153969","mexican-newspapers","mx-proceso","Proceso",4,4,288,288,288,100,2116,2,5992,765,765,1351,0,0,4
+"20261102T235744Z-live-mexican-newspapers-17153969","mexican-newspapers","mx-pulso-slp","Pulso de San Luis",4,4,1455,1455,1455,100,5920,8,5992,5734,5734,186,0,0,0
+"20261102T235744Z-live-mexican-newspapers-17153969","mexican-newspapers","mx-raichali","Raíchali",4,4,1035,1035,1035,100,4204,32,5992,3559,3559,645,0,0,0
+"20261102T235744Z-live-mexican-newspapers-17153969","mexican-newspapers","mx-sdp-noticias","SDP Noticias",4,4,1277,1277,1277,100,5516,11,5992,4474,4474,1042,0,0,0
+"20261102T235744Z-live-security-advisories-90f929ad","security-advisories","security-apple","Apple Security Releases",4,4,306,306,306,100,1481,5,5992,1138,1138,329,0,14,0
+"20261102T235744Z-live-security-advisories-90f929ad","security-advisories","security-chrome-releases","Chrome Releases",4,4,1144,1144,1144,100,5528,4,5992,4576,4576,952,0,0,468
+"20261102T235744Z-live-security-advisories-90f929ad","security-advisories","security-github","GitHub Security Advisories",4,4,28,28,28,100,4928,96,5992,112,112,4812,0,4,0
+"20261102T235744Z-live-security-advisories-90f929ad","security-advisories","security-gitlab","GitLab Releases",4,4,4,4,4,100,5444,420,5992,16,16,5428,0,0,0
+"20261102T235744Z-live-security-advisories-90f929ad","security-advisories","security-mozilla","Mozilla Security Advisories",4,4,1479,1479,1479,100,6000,0,5992,5916,5916,84,0,0,0
+"20261102T235744Z-live-security-advisories-90f929ad","security-advisories","security-nodejs","Node.js Security Releases",4,4,46,46,46,100,5324,32,5992,184,184,5140,0,0,520
+"20261102T235744Z-live-security-advisories-90f929ad","security-advisories","security-oracle","Oracle Security Alerts",4,4,31,31,31,100,2324,120,5992,124,124,2196,0,4,16
+"20261102T235744Z-live-security-advisories-90f929ad","security-advisories","security-ubuntu","Ubuntu Security Notices",4,4,54,54,54,100,3500,16,5992,216,216,3280,0,4,16
+"20261102T235744Z-live-us-newspapers-28fdac31","us-newspapers","us-albuquerque-journal","Albuquerque Journal",4,4,1413,1413,1413,100,5979,0,5992,5619,5619,360,0,0,0
+"20261102T235744Z-live-us-newspapers-28fdac31","us-newspapers","us-anchorage-daily-news","Anchorage Daily News",4,4,1015,1015,1015,100,4154,78,5992,3481,3481,673,0,0,0
+"20261102T235744Z-live-us-newspapers-28fdac31","us-newspapers","us-atlanta-journal-constitution","The Atlanta Journal-Constitution",4,4,911,908,911,100,4668,11,5992,3086,3075,1583,0,10,0
+"20261102T235744Z-live-us-newspapers-28fdac31","us-newspapers","us-baltimore-sun","The Baltimore Sun",4,4,1183,1183,1183,100,5872,72,5992,4691,4691,1181,0,0,0
+"20261102T235744Z-live-us-newspapers-28fdac31","us-newspapers","us-boston-globe","The Boston Globe",4,4,504,504,504,100,3143,12,5992,1823,1823,1320,0,0,0
+"20261102T235744Z-live-us-newspapers-28fdac31","us-newspapers","us-boston-herald","Boston Herald",4,4,1308,1308,1308,100,5920,8,5992,5162,5162,758,0,0,0
+"20261102T235744Z-live-us-newspapers-28fdac31","us-newspapers","us-chicago-tribune","Chicago Tribune",4,4,730,730,730,100,5493,16,5992,2866,2866,2627,0,0,0
+"20261102T235744Z-live-us-newspapers-28fdac31","us-newspapers","us-dallas-morning-news","The Dallas Morning News",4,4,836,836,836,100,5633,3,5992,3165,3165,2468,0,0,0
+"20261102T235744Z-live-us-newspapers-28fdac31","us-newspapers","us-denver-post","The Denver Post",4,4,1256,1256,1256,100,5706,8,5992,4656,4656,1050,0,0,0
+"20261102T235744Z-live-us-newspapers-28fdac31","us-newspapers","us-houston-chronicle","Houston Chronicle",4,4,1042,1041,1042,100,5309,38,5992,3908,3905,1404,0,0,0
+"20261102T235744Z-live-us-newspapers-28fdac31","us-newspapers","us-los-angeles-times","Los Angeles Times",4,4,1008,1008,1008,100,5876,0,5992,3889,3889,1987,0,0,0
+"20261102T235744Z-live-us-newspapers-28fdac31","us-newspapers","us-newsday","Newsday",4,4,1295,1295,1295,100,5592,72,5992,4167,4167,1380,0,45,0
+"20261102T235744Z-live-us-newspapers-28fdac31","us-newspapers","us-nola","NOLA.com",4,4,1151,1151,1151,100,4615,7,5992,4197,4197,418,0,0,384
+"20261102T235744Z-live-us-newspapers-28fdac31","us-newspapers","us-orange-county-register","Orange County Register",4,4,1282,1282,1282,100,5936,0,5992,4976,4976,960,0,0,0
+"20261102T235744Z-live-us-newspapers-28fdac31","us-newspapers","us-philadelphia-inquirer","The Philadelphia Inquirer",4,4,1102,1102,1102,100,4694,4,5992,3744,3744,950,0,0,3
+"20261102T235744Z-live-us-newspapers-28fdac31","us-newspapers","us-salt-lake-tribune","The Salt Lake Tribune",4,4,1101,1101,1101,100,4272,87,5992,3662,3662,610,0,0,0
+"20261102T235744Z-live-us-newspapers-28fdac31","us-newspapers","us-san-diego-union-tribune","San Diego Union-Tribune",4,4,1298,1298,1298,100,5964,0,5992,5162,5162,802,0,0,0
+"20261102T235744Z-live-us-newspapers-28fdac31","us-newspapers","us-san-francisco-chronicle","San Francisco Chronicle",4,4,970,970,970,100,5068,32,5992,3648,3648,1416,0,4,4
+"20261102T235744Z-live-us-newspapers-28fdac31","us-newspapers","us-seattle-times","The Seattle Times",4,4,610,610,610,100,5150,86,5992,2379,2379,2771,0,0,0
+"20261102T235744Z-live-us-newspapers-28fdac31","us-newspapers","us-tampa-bay-times","Tampa Bay Times",4,4,1107,1107,1107,100,4018,0,5992,3230,3230,788,0,0,0

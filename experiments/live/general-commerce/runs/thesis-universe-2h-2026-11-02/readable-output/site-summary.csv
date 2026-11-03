@@ -1,0 +1,9 @@
+"run_id","study","site_id","site_name","executions","successful_executions","published_rows","unique_published_urls","complete_rows","complete_rows_percent","pages_fetched","pages_failed","pages_discovered","records_extracted","record_pages","navigation_pages","ignored_pages","unmatched_pages","robots_blocked"
+"20261102T235744Z-live-general-commerce-3d7f626e","general-commerce","commerce-dsw","DSW",4,4,624,166,624,100,5952,8,5996,624,624,5328,0,0,0
+"20261102T235744Z-live-general-commerce-3d7f626e","general-commerce","commerce-fashion-nova","Fashion Nova",4,4,2963,1169,2963,100,4248,0,5996,2963,2963,1281,0,4,0
+"20261102T235744Z-live-general-commerce-3d7f626e","general-commerce","commerce-gap","Gap",4,4,1582,716,1582,100,4051,0,5996,1582,1582,2395,0,74,0
+"20261102T235744Z-live-general-commerce-3d7f626e","general-commerce","commerce-nike","Nike",4,4,1916,599,1916,100,5115,0,5996,1916,1916,3047,0,152,0
+"20261102T235744Z-live-general-commerce-3d7f626e","general-commerce","commerce-puma","PUMA",4,4,6869,1185,6869,100,5233,11,5996,6869,4095,1134,0,4,0
+"20261102T235744Z-live-general-commerce-3d7f626e","general-commerce","commerce-quince","Quince",4,4,5372,803,5372,100,4753,4,5996,5372,2735,2018,0,0,0
+"20261102T235744Z-live-general-commerce-3d7f626e","general-commerce","commerce-spanx","Spanx",4,4,112,28,112,100,3842,22,5996,112,112,3730,0,0,0
+"20261102T235744Z-live-general-commerce-3d7f626e","general-commerce","commerce-ulta-beauty","Ulta Beauty",4,4,194,95,194,100,2737,4,5996,194,194,2539,0,4,0

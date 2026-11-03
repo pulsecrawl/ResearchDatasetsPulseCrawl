@@ -1,0 +1,9 @@
+"run_id","study","site_id","site_name","executions","successful_executions","published_rows","unique_published_urls","complete_rows","complete_rows_percent","pages_fetched","pages_failed","pages_discovered","records_extracted","record_pages","navigation_pages","ignored_pages","unmatched_pages","robots_blocked"
+"20261102T235744Z-live-security-advisories-90f929ad","security-advisories","security-apple","Apple Security Releases",4,4,306,306,306,100,1481,5,5992,1138,1138,329,0,14,0
+"20261102T235744Z-live-security-advisories-90f929ad","security-advisories","security-chrome-releases","Chrome Releases",4,4,1144,1144,1144,100,5528,4,5992,4576,4576,952,0,0,468
+"20261102T235744Z-live-security-advisories-90f929ad","security-advisories","security-github","GitHub Security Advisories",4,4,28,28,28,100,4928,96,5992,112,112,4812,0,4,0
+"20261102T235744Z-live-security-advisories-90f929ad","security-advisories","security-gitlab","GitLab Releases",4,4,4,4,4,100,5444,420,5992,16,16,5428,0,0,0
+"20261102T235744Z-live-security-advisories-90f929ad","security-advisories","security-mozilla","Mozilla Security Advisories",4,4,1479,1479,1479,100,6000,0,5992,5916,5916,84,0,0,0
+"20261102T235744Z-live-security-advisories-90f929ad","security-advisories","security-nodejs","Node.js Security Releases",4,4,46,46,46,100,5324,32,5992,184,184,5140,0,0,520
+"20261102T235744Z-live-security-advisories-90f929ad","security-advisories","security-oracle","Oracle Security Alerts",4,4,31,31,31,100,2324,120,5992,124,124,2196,0,4,16
+"20261102T235744Z-live-security-advisories-90f929ad","security-advisories","security-ubuntu","Ubuntu Security Notices",4,4,54,54,54,100,3500,16,5992,216,216,3280,0,4,16

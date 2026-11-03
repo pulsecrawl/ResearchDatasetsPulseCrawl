@@ -1,0 +1,20 @@
+"run_id","study","site_id","site_name","executions","successful_executions","published_rows","unique_published_urls","complete_rows","complete_rows_percent","pages_fetched","pages_failed","pages_discovered","records_extracted","record_pages","navigation_pages","ignored_pages","unmatched_pages","robots_blocked"
+"20261102T235744Z-live-mexican-newspapers-17153969","mexican-newspapers","mx-el-economista","El Economista",4,4,1168,1168,1168,100,5976,20,5992,4618,4618,1278,0,80,4
+"20261102T235744Z-live-mexican-newspapers-17153969","mexican-newspapers","mx-el-financiero","El Financiero",4,4,1189,1189,1189,100,4972,28,5992,3915,3915,1057,0,0,0
+"20261102T235744Z-live-mexican-newspapers-17153969","mexican-newspapers","mx-el-heraldo","El Heraldo de México",4,4,451,451,451,100,5613,359,5992,1794,1794,3819,0,0,0
+"20261102T235744Z-live-mexican-newspapers-17153969","mexican-newspapers","mx-el-horizonte","El Horizonte",4,4,570,570,570,100,2476,40,5992,1921,1921,555,0,0,0
+"20261102T235744Z-live-mexican-newspapers-17153969","mexican-newspapers","mx-el-imparcial","El Imparcial",4,4,817,817,817,100,4241,0,5992,2616,2616,1625,0,0,0
+"20261102T235744Z-live-mexican-newspapers-17153969","mexican-newspapers","mx-el-informador","El Informador",4,4,970,970,970,100,5839,12,5992,3430,3430,2409,0,0,0
+"20261102T235744Z-live-mexican-newspapers-17153969","mexican-newspapers","mx-el-manana-nuevo-laredo","El Mañana de Nuevo Laredo",4,4,446,446,446,100,5377,12,5992,1627,1627,3750,0,0,4
+"20261102T235744Z-live-mexican-newspapers-17153969","mexican-newspapers","mx-el-porvenir","El Porvenir",4,4,853,853,853,100,5469,4,5992,2973,2973,2496,0,0,0
+"20261102T235744Z-live-mexican-newspapers-17153969","mexican-newspapers","mx-excelsior","Excélsior",4,4,1162,1162,1162,100,5988,0,5992,4598,4598,1374,0,16,0
+"20261102T235744Z-live-mexican-newspapers-17153969","mexican-newspapers","mx-la-cronica","La Crónica de Hoy",4,4,397,397,397,100,1984,112,2364,1556,1556,428,0,0,0
+"20261102T235744Z-live-mexican-newspapers-17153969","mexican-newspapers","mx-la-opcion","La Opción de Chihuahua",4,4,1084,1084,1084,100,5948,4,5992,4320,4320,1628,0,0,0
+"20261102T235744Z-live-mexican-newspapers-17153969","mexican-newspapers","mx-la-razon","La Razón de México",4,4,1338,1338,1338,100,5900,4,5992,4668,4668,1232,0,0,0
+"20261102T235744Z-live-mexican-newspapers-17153969","mexican-newspapers","mx-la-silla-rota","La Silla Rota",4,4,579,579,579,100,5560,7,5992,2023,2023,3537,0,0,4
+"20261102T235744Z-live-mexican-newspapers-17153969","mexican-newspapers","mx-noroeste","Noroeste",4,4,955,955,955,100,5952,44,5992,3647,3647,2305,0,0,0
+"20261102T235744Z-live-mexican-newspapers-17153969","mexican-newspapers","mx-norte-digital","Norte Digital",4,4,245,245,245,100,5496,420,5992,980,980,4516,0,0,0
+"20261102T235744Z-live-mexican-newspapers-17153969","mexican-newspapers","mx-proceso","Proceso",4,4,288,288,288,100,2116,2,5992,765,765,1351,0,0,4
+"20261102T235744Z-live-mexican-newspapers-17153969","mexican-newspapers","mx-pulso-slp","Pulso de San Luis",4,4,1455,1455,1455,100,5920,8,5992,5734,5734,186,0,0,0
+"20261102T235744Z-live-mexican-newspapers-17153969","mexican-newspapers","mx-raichali","Raíchali",4,4,1035,1035,1035,100,4204,32,5992,3559,3559,645,0,0,0
+"20261102T235744Z-live-mexican-newspapers-17153969","mexican-newspapers","mx-sdp-noticias","SDP Noticias",4,4,1277,1277,1277,100,5516,11,5992,4474,4474,1042,0,0,0

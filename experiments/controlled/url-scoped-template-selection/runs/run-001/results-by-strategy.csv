@@ -1,0 +1,5 @@
+strategy,pages,records,record_coverage,correct_fields,expected_fields,field_accuracy,wrong_site_records,contamination_rate
+generic,300,300,1.0,360,600,0.6,0,0.0
+routed,300,300,1.0,600,600,1.0,0,0.0
+scoped,300,300,1.0,600,600,1.0,0,0.0
+unscoped,300,300,1.0,600,600,1.0,280,0.9333333333333333

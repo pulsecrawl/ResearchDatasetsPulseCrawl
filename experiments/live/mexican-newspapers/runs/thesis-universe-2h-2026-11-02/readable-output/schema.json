@@ -1,0 +1,360 @@
+{
+  "execution-summary": [
+    {
+      "name": "run_id",
+      "type": "string"
+    },
+    {
+      "name": "study",
+      "type": "string"
+    },
+    {
+      "name": "site_id",
+      "type": "string"
+    },
+    {
+      "name": "site_name",
+      "type": "string"
+    },
+    {
+      "name": "execution_id",
+      "type": "string"
+    },
+    {
+      "name": "status",
+      "type": "string"
+    },
+    {
+      "name": "scheduled_for",
+      "type": "string"
+    },
+    {
+      "name": "started_at",
+      "type": "string"
+    },
+    {
+      "name": "finished_at",
+      "type": "string"
+    },
+    {
+      "name": "pages_fetched",
+      "type": "int64"
+    },
+    {
+      "name": "pages_failed",
+      "type": "int64"
+    },
+    {
+      "name": "pages_discovered",
+      "type": "int64"
+    },
+    {
+      "name": "records_extracted",
+      "type": "int64"
+    },
+    {
+      "name": "record_pages",
+      "type": "int64"
+    },
+    {
+      "name": "navigation_pages",
+      "type": "int64"
+    },
+    {
+      "name": "ignored_pages",
+      "type": "int64"
+    },
+    {
+      "name": "unmatched_pages",
+      "type": "int64"
+    },
+    {
+      "name": "robots_blocked",
+      "type": "int64"
+    },
+    {
+      "name": "stop_reason",
+      "type": "string"
+    },
+    {
+      "name": "error",
+      "type": "null"
+    }
+  ],
+  "pages": [
+    {
+      "name": "run_id",
+      "type": "string"
+    },
+    {
+      "name": "study",
+      "type": "string"
+    },
+    {
+      "name": "site_id",
+      "type": "string"
+    },
+    {
+      "name": "site_name",
+      "type": "string"
+    },
+    {
+      "name": "execution_id",
+      "type": "string"
+    },
+    {
+      "name": "url",
+      "type": "string"
+    },
+    {
+      "name": "depth",
+      "type": "int64"
+    },
+    {
+      "name": "fetch_status",
+      "type": "string"
+    },
+    {
+      "name": "error",
+      "type": "string"
+    },
+    {
+      "name": "published_record",
+      "type": "bool"
+    }
+  ],
+  "records": [
+    {
+      "name": "run_id",
+      "type": "string"
+    },
+    {
+      "name": "study",
+      "type": "string"
+    },
+    {
+      "name": "site_id",
+      "type": "string"
+    },
+    {
+      "name": "site_name",
+      "type": "string"
+    },
+    {
+      "name": "_crawled_at",
+      "type": "string"
+    },
+    {
+      "name": "_execution_id",
+      "type": "string"
+    },
+    {
+      "name": "_execution_started_at",
+      "type": "string"
+    },
+    {
+      "name": "_first_seen_at",
+      "type": "string"
+    },
+    {
+      "name": "_is_new_url",
+      "type": "bool"
+    },
+    {
+      "name": "_job_id",
+      "type": "string"
+    },
+    {
+      "name": "_last_seen_at",
+      "type": "string"
+    },
+    {
+      "name": "_match_tier",
+      "type": "string"
+    },
+    {
+      "name": "_scheduled_for",
+      "type": "string"
+    },
+    {
+      "name": "_schema_id",
+      "type": "string"
+    },
+    {
+      "name": "_seen_count",
+      "type": "int64"
+    },
+    {
+      "name": "_source_url",
+      "type": "string"
+    },
+    {
+      "name": "_template_id",
+      "type": "string"
+    },
+    {
+      "name": "_template_origin",
+      "type": "string"
+    },
+    {
+      "name": "_url_identity",
+      "type": "string"
+    },
+    {
+      "name": "author",
+      "type": "string"
+    },
+    {
+      "name": "canonical_url",
+      "type": "string"
+    },
+    {
+      "name": "description",
+      "type": "string"
+    },
+    {
+      "name": "headline",
+      "type": "string"
+    },
+    {
+      "name": "hour",
+      "type": "string"
+    },
+    {
+      "name": "image_url",
+      "type": "string"
+    },
+    {
+      "name": "ingest_date",
+      "type": "string"
+    },
+    {
+      "name": "modified_at",
+      "type": "string"
+    },
+    {
+      "name": "published_at",
+      "type": "string"
+    },
+    {
+      "name": "section",
+      "type": "string"
+    },
+    {
+      "name": "source_name",
+      "type": "string"
+    }
+  ],
+  "site-summary": [
+    {
+      "name": "run_id",
+      "type": "string"
+    },
+    {
+      "name": "study",
+      "type": "string"
+    },
+    {
+      "name": "site_id",
+      "type": "string"
+    },
+    {
+      "name": "site_name",
+      "type": "string"
+    },
+    {
+      "name": "executions",
+      "type": "int64"
+    },
+    {
+      "name": "successful_executions",
+      "type": "int64"
+    },
+    {
+      "name": "published_rows",
+      "type": "int64"
+    },
+    {
+      "name": "unique_published_urls",
+      "type": "int64"
+    },
+    {
+      "name": "complete_rows",
+      "type": "int64"
+    },
+    {
+      "name": "complete_rows_percent",
+      "type": "double"
+    },
+    {
+      "name": "pages_fetched",
+      "type": "int64"
+    },
+    {
+      "name": "pages_failed",
+      "type": "int64"
+    },
+    {
+      "name": "pages_discovered",
+      "type": "int64"
+    },
+    {
+      "name": "records_extracted",
+      "type": "int64"
+    },
+    {
+      "name": "record_pages",
+      "type": "int64"
+    },
+    {
+      "name": "navigation_pages",
+      "type": "int64"
+    },
+    {
+      "name": "ignored_pages",
+      "type": "int64"
+    },
+    {
+      "name": "unmatched_pages",
+      "type": "int64"
+    },
+    {
+      "name": "robots_blocked",
+      "type": "int64"
+    }
+  ],
+  "suppressed-page-samples": [
+    {
+      "name": "run_id",
+      "type": "string"
+    },
+    {
+      "name": "study",
+      "type": "string"
+    },
+    {
+      "name": "site_id",
+      "type": "string"
+    },
+    {
+      "name": "site_name",
+      "type": "string"
+    },
+    {
+      "name": "execution_id",
+      "type": "string"
+    },
+    {
+      "name": "host",
+      "type": "string"
+    },
+    {
+      "name": "url",
+      "type": "string"
+    },
+    {
+      "name": "runtime_role",
+      "type": "string"
+    }
+  ]
+}

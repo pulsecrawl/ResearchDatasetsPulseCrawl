@@ -1,0 +1,33 @@
+{
+  "aliases": [
+    "us-newspapers"
+  ],
+  "id": "live-us-newspapers",
+  "kind": "live",
+  "parameters": {
+    "manifest": "experiments/live/us-newspapers/input/sites.json",
+    "maxDepth": 1,
+    "maxUrlsPerSitePerExecution": 4,
+    "minimumOriginDelaySeconds": 5,
+    "phase": "two-hour",
+    "phases": {
+      "two-hour": {
+        "executions": 4,
+        "intervalMinutes": 30,
+        "maxDepth": 5,
+        "maxDurationSeconds": 1680,
+        "maxUrlsPerSitePerExecution": 1500,
+        "minimumOriginDelaySeconds": 0.5,
+        "nativeScheduler": true,
+        "overrideSiteLimits": true,
+        "requiredPackageVersion": "0.4.0",
+        "schedulerPollSeconds": 5,
+        "startAtNextMinute": true
+      }
+    },
+    "retainResponseBodies": false,
+    "study": "us-newspapers"
+  },
+  "seed": 4703,
+  "title": "Recurring united states newspapers study"
+}
