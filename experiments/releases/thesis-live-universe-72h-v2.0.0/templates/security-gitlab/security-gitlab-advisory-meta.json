@@ -1,0 +1,37 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "canonical_url": [
+      "og:url"
+    ],
+    "published_at": [
+      "article:published_time",
+      "date"
+    ],
+    "summary": [
+      "og:description",
+      "description"
+    ],
+    "title": [
+      "og:title",
+      "twitter:title",
+      "<title>"
+    ],
+    "updated_at": [
+      "article:modified_time",
+      "og:updated_time"
+    ],
+    "vendor": [
+      "literal:GitLab Releases"
+    ]
+  },
+  "name": "security-gitlab-advisory-meta",
+  "origin": "org",
+  "outputSchemaId": "schema_c3c88d9778c798618f00",
+  "pageRole": "record",
+  "requiredFields": [
+    "title",
+    "canonical_url"
+  ],
+  "templateId": "security-gitlab-advisory-meta"
+}

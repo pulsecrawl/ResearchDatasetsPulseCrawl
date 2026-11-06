@@ -1,0 +1,49 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "author": [
+      "article:author",
+      "author"
+    ],
+    "canonical_url": [
+      "og:url"
+    ],
+    "description": [
+      "og:description",
+      "description"
+    ],
+    "headline": [
+      "og:title",
+      "twitter:title",
+      "<title>"
+    ],
+    "image_url": [
+      "og:image",
+      "twitter:image"
+    ],
+    "modified_at": [
+      "article:modified_time",
+      "og:updated_time"
+    ],
+    "published_at": [
+      "article:published_time",
+      "date"
+    ],
+    "section": [
+      "article:section"
+    ],
+    "source_name": [
+      "literal:The Denver Post"
+    ]
+  },
+  "name": "us-denver-post-article-meta",
+  "origin": "org",
+  "outputSchemaId": "schema_0bb70887a1742c73c938",
+  "pageRole": "record",
+  "requiredFields": [
+    "headline",
+    "published_at",
+    "canonical_url"
+  ],
+  "templateId": "us-denver-post-article-meta"
+}

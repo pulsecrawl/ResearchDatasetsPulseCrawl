@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "headline": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "mx-la-opcion-article-known-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_ff2b5347ef8caf7699ce",
+  "pageRole": "navigation",
+  "templateId": "mx-la-opcion-article-known-navigation"
+}

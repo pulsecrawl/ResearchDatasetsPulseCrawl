@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "title": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "security-chrome-releases-advisory-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_158db1e57c7a8bd849a0",
+  "pageRole": "navigation",
+  "templateId": "security-chrome-releases-advisory-navigation"
+}

@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "headline": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "finance-business-insider-article-known-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_b7bda4bba9670076311b",
+  "pageRole": "navigation",
+  "templateId": "finance-business-insider-article-known-navigation"
+}

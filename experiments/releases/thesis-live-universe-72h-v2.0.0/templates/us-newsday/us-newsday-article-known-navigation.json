@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "headline": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "us-newsday-article-known-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_7ab58bc34e71dbe66c3f",
+  "pageRole": "navigation",
+  "templateId": "us-newsday-article-known-navigation"
+}

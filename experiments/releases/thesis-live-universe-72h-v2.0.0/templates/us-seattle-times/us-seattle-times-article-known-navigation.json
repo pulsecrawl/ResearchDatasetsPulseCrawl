@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "headline": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "us-seattle-times-article-known-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_188984066d5fd8c6b3c5",
+  "pageRole": "navigation",
+  "templateId": "us-seattle-times-article-known-navigation"
+}

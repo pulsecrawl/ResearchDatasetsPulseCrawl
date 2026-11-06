@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "name": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "commerce-fashion-nova-product-known-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_8679e47aae68cc97c4f6",
+  "pageRole": "navigation",
+  "templateId": "commerce-fashion-nova-product-known-navigation"
+}

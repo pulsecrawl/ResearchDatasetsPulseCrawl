@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "headline": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "us-philadelphia-inquirer-article-known-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_bd8846d76b3d420b5c75",
+  "pageRole": "navigation",
+  "templateId": "us-philadelphia-inquirer-article-known-navigation"
+}

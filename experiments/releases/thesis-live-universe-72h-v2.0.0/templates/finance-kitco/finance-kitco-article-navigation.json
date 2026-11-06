@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "headline": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "finance-kitco-article-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_78bec31532b282090115",
+  "pageRole": "navigation",
+  "templateId": "finance-kitco-article-navigation"
+}

@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "headline": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "mx-noroeste-article-known-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_b8a2606469f8acbdb957",
+  "pageRole": "navigation",
+  "templateId": "mx-noroeste-article-known-navigation"
+}

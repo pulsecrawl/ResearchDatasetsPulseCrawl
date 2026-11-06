@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "headline": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "finance-yahoo-article-known-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_ea0f01c5cb883e2a178d",
+  "pageRole": "navigation",
+  "templateId": "finance-yahoo-article-known-navigation"
+}

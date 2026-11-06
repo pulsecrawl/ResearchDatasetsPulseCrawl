@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "title": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "security-gitlab-advisory-known-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_c3c88d9778c798618f00",
+  "pageRole": "navigation",
+  "templateId": "security-gitlab-advisory-known-navigation"
+}

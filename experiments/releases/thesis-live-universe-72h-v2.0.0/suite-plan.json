@@ -1,0 +1,13 @@
+{
+  "experiments": [
+    "live-mexican-newspapers",
+    "live-us-newspapers",
+    "live-financial-news",
+    "live-general-commerce",
+    "live-security-advisories"
+  ],
+  "phase": "three-day",
+  "scheduleAnchorAt": "2026-11-03T07:42:00+00:00",
+  "schemaVersion": 1,
+  "startedAt": "2026-11-03T07:39:47.091995+00:00"
+}

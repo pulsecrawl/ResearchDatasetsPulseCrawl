@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "name": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "commerce-ulta-beauty-product-known-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_b4adeadb592f9521d5f3",
+  "pageRole": "navigation",
+  "templateId": "commerce-ulta-beauty-product-known-navigation"
+}

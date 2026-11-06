@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "headline": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "finance-fortune-article-known-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_4b074a2430162eb9438d",
+  "pageRole": "navigation",
+  "templateId": "finance-fortune-article-known-navigation"
+}

@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "title": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "security-mozilla-advisory-known-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_23cdcbc4b5391ae9b166",
+  "pageRole": "navigation",
+  "templateId": "security-mozilla-advisory-known-navigation"
+}

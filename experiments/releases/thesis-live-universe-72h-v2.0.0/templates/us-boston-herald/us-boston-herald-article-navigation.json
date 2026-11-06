@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "headline": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "us-boston-herald-article-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_a2b4b750167201fd2e02",
+  "pageRole": "navigation",
+  "templateId": "us-boston-herald-article-navigation"
+}

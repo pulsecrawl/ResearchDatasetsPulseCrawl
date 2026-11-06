@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "name": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "commerce-dsw-product-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_87cb16764496546c0ef1",
+  "pageRole": "navigation",
+  "templateId": "commerce-dsw-product-navigation"
+}

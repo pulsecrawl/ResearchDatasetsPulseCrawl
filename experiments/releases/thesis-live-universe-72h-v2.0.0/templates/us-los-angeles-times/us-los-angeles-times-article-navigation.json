@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "headline": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "us-los-angeles-times-article-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_d1dfca9a21e1dcd79992",
+  "pageRole": "navigation",
+  "templateId": "us-los-angeles-times-article-navigation"
+}

@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "headline": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "us-houston-chronicle-article-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_e76979f616b4106d1a74",
+  "pageRole": "navigation",
+  "templateId": "us-houston-chronicle-article-navigation"
+}

@@ -1,0 +1,210 @@
+{
+  "runs": [
+    {
+      "runId": "20261103T073947Z-live-financial-news-5109d4b5",
+      "study": "financial-news",
+      "tables": {
+        "executions": {
+          "csv": "execution-summary.csv",
+          "csvSha256": "fdd630d611894dc8de4143f29bf6b0c8fcd3536e7114027fe38c731c5b4bbda6",
+          "parquet": "execution-summary.parquet",
+          "parquetSha256": "2fe6db609d669df5b99e26957c803ad8e62a45dfaaadc8eae8dcd323d50d185f",
+          "rows": 1440
+        },
+        "pages": {
+          "csv": "pages.csv",
+          "csvSha256": "7ad26ae99f9a4f7e5f220fcb66a59df0706f8163ea2aa532db9d2116816256e0",
+          "parquet": "pages.parquet",
+          "parquetSha256": "c7a7a6fefb0a406855e4f890955e918c30b03e32f7b02fab43b0947a0696b8f5",
+          "rows": 2100214
+        },
+        "records": {
+          "csv": "records.csv",
+          "csvSha256": "9647864437100b94799cd7f86181ed1954d416a2d5ad933bfdb7e75334d27af7",
+          "parquet": "records.parquet",
+          "parquetSha256": "bf1d3963e5ce641db95f50eefa19d552c4fde3a0dd393271345ce7bc442bcd4c",
+          "rows": 18478
+        },
+        "roleSamples": {
+          "csv": "suppressed-page-samples.csv",
+          "csvSha256": "4f2f21826ee15ffff7053133f18febd51892327a361b7048e465b4c2db25b311",
+          "parquet": "suppressed-page-samples.parquet",
+          "parquetSha256": "eeb756123c924e7a2aa8132b66dd05319840412c9f662b39789b4ce01c7c663d",
+          "rows": 7755
+        },
+        "sites": {
+          "csv": "site-summary.csv",
+          "csvSha256": "95695db7b51a401b433e31e852809ffb030f6eacd1015c88646ced465dc911da",
+          "parquet": "site-summary.parquet",
+          "parquetSha256": "dba9d4507649e563d56ffbdaedfb73f524131973c293d1757affe568d347f888",
+          "rows": 20
+        }
+      }
+    },
+    {
+      "runId": "20261103T073947Z-live-general-commerce-7b139bb4",
+      "study": "general-commerce",
+      "tables": {
+        "executions": {
+          "csv": "execution-summary.csv",
+          "csvSha256": "db7ac92c115242ecf3f019337d94653c21a670dc6560a569a222d57d22122c64",
+          "parquet": "execution-summary.parquet",
+          "parquetSha256": "f5362cde825acaa15988dd64353a55102fd4d18a5bded8183f38fd2b6122b72b",
+          "rows": 576
+        },
+        "pages": {
+          "csv": "pages.csv",
+          "csvSha256": "f2cfafb5a086284914507c8b1fb9355ad432c3bc441befd77aab5bbc74a82b00",
+          "parquet": "pages.parquet",
+          "parquetSha256": "da4e16446ad8287d96b82aaec29fdde77fa851f1836ca8159750a77257bfb80b",
+          "rows": 861004
+        },
+        "records": {
+          "csv": "records.csv",
+          "csvSha256": "a392447e322133378a71a4ed3d0ef3ca100a51513f501c9a6920df5acf6bee78",
+          "parquet": "records.parquet",
+          "parquetSha256": "5b446c565bd33a4f1adadc9a4ba9eee7eb34eaba15323285100e2973c37a092c",
+          "rows": 376494
+        },
+        "roleSamples": {
+          "csv": "suppressed-page-samples.csv",
+          "csvSha256": "6174ac45357905e314aec9e90b53e014732eae734cd2cac2c1786e8353cd0d98",
+          "parquet": "suppressed-page-samples.parquet",
+          "parquetSha256": "28aa8e11c916e6c6efd74eafd92193d79a53464a129183287511659a06aa157d",
+          "rows": 2872
+        },
+        "sites": {
+          "csv": "site-summary.csv",
+          "csvSha256": "17ac876a17ff30fa98db904fd299e7a2723dcd6aaade0b45c8db23cbfc8e5ac9",
+          "parquet": "site-summary.parquet",
+          "parquetSha256": "de0e4fe599e37e287e7978addf590249e767054fff2bc4363687eccef58381c5",
+          "rows": 8
+        }
+      }
+    },
+    {
+      "runId": "20261103T073947Z-live-mexican-newspapers-893f8fd5",
+      "study": "mexican-newspapers",
+      "tables": {
+        "executions": {
+          "csv": "execution-summary.csv",
+          "csvSha256": "043a974a160bc8808c82a96ba081d817f9dfd3be6006327e62aa578be37273e5",
+          "parquet": "execution-summary.parquet",
+          "parquetSha256": "eee8eaa574dc651e1daa05f8cabd6230443aecf846244f2ed2219540593bdcf8",
+          "rows": 1368
+        },
+        "pages": {
+          "csv": "pages.csv",
+          "csvSha256": "0599df234d243630c139b80fbbcb6beae491d2a28b0dea664fcc15576dd26020",
+          "parquet": "pages.parquet",
+          "parquetSha256": "5014c11d367d49777a579dd91cb4235df01fcbca48d4f29e8bd11a4b603081ff",
+          "rows": 1603254
+        },
+        "records": {
+          "csv": "records.csv",
+          "csvSha256": "498df2f54cfc13d543a18fa0775d63e44d409cdf0bc1186b3a13e423825ed769",
+          "parquet": "records.parquet",
+          "parquetSha256": "d45e0e6a6c816409f7632aab8c80e04ea750633d6feea84240da4d6c56c2105f",
+          "rows": 34577
+        },
+        "roleSamples": {
+          "csv": "suppressed-page-samples.csv",
+          "csvSha256": "e931c6ac0df6ce1be5063c1a9bf36aff8714200259a7157412a2d7558e7c22b9",
+          "parquet": "suppressed-page-samples.parquet",
+          "parquetSha256": "d34836929b5773fa507d20884ec68738cc36c0b855264dcc9f283e34dfa2ce72",
+          "rows": 6064
+        },
+        "sites": {
+          "csv": "site-summary.csv",
+          "csvSha256": "1ac95668bcc4320b51b4b0c84001364be6df0901c7d408013dd8eb079ad59fad",
+          "parquet": "site-summary.parquet",
+          "parquetSha256": "b38a62e5facdae92b63fe1335c11b0ca62607f74ccd3df8e0df49188e27543b7",
+          "rows": 19
+        }
+      }
+    },
+    {
+      "runId": "20261103T073947Z-live-security-advisories-7d53cce9",
+      "study": "security-advisories",
+      "tables": {
+        "executions": {
+          "csv": "execution-summary.csv",
+          "csvSha256": "7029b49fa08e1a30568266a3387449e983e74016532c102140f41fd0f40b445d",
+          "parquet": "execution-summary.parquet",
+          "parquetSha256": "17ba8cbea5167e5c6f856fd06dde3da79b04429a18ee25c674fb8d40ac90ca44",
+          "rows": 576
+        },
+        "pages": {
+          "csv": "pages.csv",
+          "csvSha256": "1b6be6cd8afa914829840c4fc5f77b2cc0845bbe98f7655997fee2b782fcd1cf",
+          "parquet": "pages.parquet",
+          "parquetSha256": "1cf4c709f9cbeacdf637c6b4e21c90c92dbf63c5f512ce6c827d37f9c5cdfd23",
+          "rows": 864000
+        },
+        "records": {
+          "csv": "records.csv",
+          "csvSha256": "67fcc7c7e3753ae115ec2113def6e152e4647287701f335085aca5d095e57029",
+          "parquet": "records.parquet",
+          "parquetSha256": "d38974dd61f4d600d9a0f61b3596293e9c9f7fdb69de3028616a7876db128c99",
+          "rows": 3485
+        },
+        "roleSamples": {
+          "csv": "suppressed-page-samples.csv",
+          "csvSha256": "8e42fcb1cf25a22deafc370d0cd5bc62190095efb2a26dc7b2d162c640ccaa71",
+          "parquet": "suppressed-page-samples.parquet",
+          "parquetSha256": "022e720aad577347ccdf079a0d2301d1850fee57f63485e4ed1cde0b90ba0018",
+          "rows": 2880
+        },
+        "sites": {
+          "csv": "site-summary.csv",
+          "csvSha256": "b4c71d2f66b77ba8ae9a6937392656bc1931b259713caeab504d1a73abc8c73f",
+          "parquet": "site-summary.parquet",
+          "parquetSha256": "e501ebe8eeaad522c8b15a0bd8f9df87882e0c2384e3e61614ee0f031ae06737",
+          "rows": 8
+        }
+      }
+    },
+    {
+      "runId": "20261103T073947Z-live-us-newspapers-1c835a9b",
+      "study": "us-newspapers",
+      "tables": {
+        "executions": {
+          "csv": "execution-summary.csv",
+          "csvSha256": "07c97fb02c592d0a863e163abb828b1f325974ff2f4bdbabac54501109e4442a",
+          "parquet": "execution-summary.parquet",
+          "parquetSha256": "2a854898ec69cf09aa1bc8f4cfaa48a8ac557a78217240a49148bc5204e1b712",
+          "rows": 1440
+        },
+        "pages": {
+          "csv": "pages.csv",
+          "csvSha256": "5ca7e0d47b0a5cb74fde869509745227ff19347d1146d9c7d06bd56698b86e7f",
+          "parquet": "pages.parquet",
+          "parquetSha256": "2662bdb83e889ba136684a90ad9d3262012cc43ba5048ec7c8bceb5661b1f19f",
+          "rows": 2160000
+        },
+        "records": {
+          "csv": "records.csv",
+          "csvSha256": "20969060f2a85110c78d21776cfede5478d41f6a51bcc733b802bb92937e6239",
+          "parquet": "records.parquet",
+          "parquetSha256": "213ebb7b81de3ed58f387b3f0b4eaa1b16466ec4d7c74ec70f3cc6036e4f9718",
+          "rows": 33107
+        },
+        "roleSamples": {
+          "csv": "suppressed-page-samples.csv",
+          "csvSha256": "c73408bbb9e3a193bb670e78da2104a5b8e55363385f3958859ff75ee560f2d1",
+          "parquet": "suppressed-page-samples.parquet",
+          "parquetSha256": "d02148257505093963b999e3f4e42fe80f1f7f9a5b2d9d192cae0fc92e2b93d6",
+          "rows": 7209
+        },
+        "sites": {
+          "csv": "site-summary.csv",
+          "csvSha256": "68c3ddee6bedc82842feb041287c9264ef34221023fbdbef647fc2b797b08b13",
+          "parquet": "site-summary.parquet",
+          "parquetSha256": "1827ea1c235f93f9b92cf16c580f7410abb52c1ba5b6ed8c5bbdc185e10416df",
+          "rows": 20
+        }
+      }
+    }
+  ],
+  "schemaVersion": 1
+}

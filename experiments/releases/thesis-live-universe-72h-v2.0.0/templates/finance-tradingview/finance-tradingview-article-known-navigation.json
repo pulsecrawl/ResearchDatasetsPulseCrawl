@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "headline": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "finance-tradingview-article-known-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_98680f81b5bab5bcad87",
+  "pageRole": "navigation",
+  "templateId": "finance-tradingview-article-known-navigation"
+}

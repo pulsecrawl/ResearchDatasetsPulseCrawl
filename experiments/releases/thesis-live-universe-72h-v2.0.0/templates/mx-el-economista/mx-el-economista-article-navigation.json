@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "headline": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "mx-el-economista-article-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_6cfcd8788d5307f95a4e",
+  "pageRole": "navigation",
+  "templateId": "mx-el-economista-article-navigation"
+}

@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "headline": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "finance-economic-times-article-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_f954d23b1b174e6ad65c",
+  "pageRole": "navigation",
+  "templateId": "finance-economic-times-article-navigation"
+}

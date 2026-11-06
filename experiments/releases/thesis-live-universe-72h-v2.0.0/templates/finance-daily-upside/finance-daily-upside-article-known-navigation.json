@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "headline": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "finance-daily-upside-article-known-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_9fa85f0e3ab776419030",
+  "pageRole": "navigation",
+  "templateId": "finance-daily-upside-article-known-navigation"
+}

@@ -1,0 +1,25 @@
+{
+  "engine": "css",
+  "mappings": {
+    "canonical_url": [
+      "link[rel='canonical']@href"
+    ],
+    "title": [
+      "main h1",
+      "article h1",
+      "h1"
+    ],
+    "vendor": [
+      "literal:GitLab Releases"
+    ]
+  },
+  "name": "security-gitlab-advisory-css",
+  "origin": "org",
+  "outputSchemaId": "schema_c3c88d9778c798618f00",
+  "pageRole": "record",
+  "requiredFields": [
+    "title",
+    "canonical_url"
+  ],
+  "templateId": "security-gitlab-advisory-css"
+}

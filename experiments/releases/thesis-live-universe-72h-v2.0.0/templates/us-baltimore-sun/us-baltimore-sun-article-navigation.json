@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "headline": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "us-baltimore-sun-article-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_692f12dae6d05c953d86",
+  "pageRole": "navigation",
+  "templateId": "us-baltimore-sun-article-navigation"
+}

@@ -70,6 +70,18 @@ class DatasetTests(unittest.TestCase):
         self.assertEqual(evidence["pagesFetched"], 374395)
         self.assertEqual(evidence["publishedRows"], 68367)
 
+    def test_three_day_thesis_live_universe_release_is_complete(self):
+        verifier = module("verify")
+        evidence = verifier.verify_three_day_live_release()
+        self.assertEqual(evidence["release"], "2.0.0")
+        self.assertEqual(evidence["categories"], 5)
+        self.assertEqual(evidence["sites"], 75)
+        self.assertEqual(evidence["siteExecutions"], 5400)
+        self.assertEqual(evidence["pagesFetched"], 6971063)
+        self.assertEqual(evidence["publishedRows"], 466141)
+        self.assertEqual(evidence["sourceFiles"], 14215)
+        self.assertEqual(evidence["assetFiles"], 10)
+
     def test_every_run_has_reviewer_readable_evidence(self):
         controlled = list((ROOT / "experiments/controlled").glob("*/runs/run-*"))
         self.assertEqual(len(controlled), 116)

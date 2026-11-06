@@ -1,0 +1,258 @@
+{
+  "description": "Raw-HTTP-reviewed public sources for the bounded local live study. Access is checked again immediately before every execution.",
+  "displayName": "General commerce",
+  "schemaProfile": "product",
+  "schemaVersion": 2,
+  "sites": [
+    {
+      "constantFields": {},
+      "discoveryPatterns": [
+        "^https?://(?:www\\.)?nike\\.com/t/[^?#]+/[^/?#]+(?:\\?.*)?$"
+      ],
+      "hosts": [
+        "www.nike.com"
+      ],
+      "id": "commerce-nike",
+      "listingUrl": "https://www.nike.com/w/womens-shoes-5e1x6zy7ok",
+      "maxDepth": 0,
+      "maxUrlsPerExecution": 1,
+      "minimumOriginDelaySeconds": 5,
+      "name": "Nike",
+      "qualificationMaxDepth": 0,
+      "qualificationMaxUrlsPerExecution": 1,
+      "qualificationSeedUrls": [
+        "https://www.nike.com/t/air-max-moto-2k-womens-shoes-with-reflective-accents-xfKLxDbe/HQ2056-203"
+      ],
+      "representativeDetailUrl": "https://www.nike.com/t/air-max-moto-2k-womens-shoes-with-reflective-accents-xfKLxDbe/HQ2056-203",
+      "seedUrls": [
+        "https://www.nike.com/t/air-max-moto-2k-womens-shoes-with-reflective-accents-xfKLxDbe/HQ2056-203"
+      ],
+      "templatePatterns": [
+        "https://www.nike.com/t/*"
+      ]
+    },
+    {
+      "constantFields": {},
+      "discoveryPatterns": [
+        "^https?://(?:www\\.)?gap\\.com/browse/product\\.do\\?(?:[^#]*&)?pid=\\d+(?:[&#].*)?$"
+      ],
+      "hosts": [
+        "www.gap.com"
+      ],
+      "id": "commerce-gap",
+      "listingUrl": "https://www.gap.com/browse/category.do?cid=5664",
+      "maxDepth": 0,
+      "maxUrlsPerExecution": 1,
+      "minimumOriginDelaySeconds": 5,
+      "name": "Gap",
+      "qualificationMaxDepth": 0,
+      "qualificationMaxUrlsPerExecution": 1,
+      "qualificationSeedUrls": [
+        "https://www.gap.com/browse/product.do?pid=1180239022&cl=true"
+      ],
+      "representativeDetailUrl": "https://www.gap.com/browse/product.do?pid=1180239022&cl=true",
+      "seedUrls": [
+        "https://www.gap.com/browse/product.do?pid=1180239022&cl=true"
+      ],
+      "templatePatterns": [
+        "https://www.gap.com/browse/product.do?*pid=*"
+      ]
+    },
+    {
+      "constantFields": {},
+      "discoveryPatterns": [
+        "^https?://(?:www\\.)?ulta\\.com/p/[^?#]+(?:\\?.*)?$"
+      ],
+      "hosts": [
+        "www.ulta.com"
+      ],
+      "id": "commerce-ulta-beauty",
+      "listingUrl": "https://www.ulta.com/shop/makeup",
+      "maxDepth": 0,
+      "maxUrlsPerExecution": 1,
+      "minimumOriginDelaySeconds": 5,
+      "name": "Ulta Beauty",
+      "qualificationMaxDepth": 0,
+      "qualificationMaxUrlsPerExecution": 1,
+      "qualificationSeedUrls": [
+        "https://www.ulta.com/p/better-than-sex-volumizing-lengthening-mascara-xlsImpprod5530007?sku=2263444"
+      ],
+      "replaceTemplateMappings": [
+        "jsonld"
+      ],
+      "representativeDetailUrl": "https://www.ulta.com/p/better-than-sex-volumizing-lengthening-mascara-xlsImpprod5530007?sku=2263444",
+      "requiredFieldsByEngine": {
+        "jsonld": [
+          "name",
+          "price",
+          "currency"
+        ]
+      },
+      "seedUrls": [
+        "https://www.ulta.com/p/better-than-sex-volumizing-lengthening-mascara-xlsImpprod5530007?sku=2263444"
+      ],
+      "templateMappings": {
+        "jsonld": {
+          "availability": [
+            "Product.offers.availability"
+          ],
+          "canonical_url": [
+            "Product.offers.url"
+          ],
+          "currency": [
+            "Product.offers.priceCurrency"
+          ],
+          "name": [
+            "Product.name"
+          ],
+          "price": [
+            "Product.offers.price"
+          ]
+        }
+      },
+      "templatePatterns": [
+        "https://www.ulta.com/p/*"
+      ]
+    },
+    {
+      "constantFields": {},
+      "discoveryPatterns": [
+        "^https?://(?:www\\.)?fashionnova\\.com/products/[^?#]+(?:\\?.*)?$"
+      ],
+      "hosts": [
+        "www.fashionnova.com"
+      ],
+      "id": "commerce-fashion-nova",
+      "listingUrl": "https://www.fashionnova.com/collections/new",
+      "maxDepth": 0,
+      "maxUrlsPerExecution": 1,
+      "minimumOriginDelaySeconds": 5,
+      "name": "Fashion Nova",
+      "qualificationMaxDepth": 0,
+      "qualificationMaxUrlsPerExecution": 1,
+      "qualificationSeedUrls": [
+        "https://www.fashionnova.com/products/leanne-chiffon-draped-one-shoulder-maxi-dress?color=olive"
+      ],
+      "representativeDetailUrl": "https://www.fashionnova.com/products/leanne-chiffon-draped-one-shoulder-maxi-dress?color=olive",
+      "seedUrls": [
+        "https://www.fashionnova.com/products/leanne-chiffon-draped-one-shoulder-maxi-dress?color=olive"
+      ],
+      "templatePatterns": [
+        "https://www.fashionnova.com/products/*"
+      ]
+    },
+    {
+      "constantFields": {},
+      "discoveryPatterns": [
+        "^https?://us\\.puma\\.com/us/en/pd/[^?#]+(?:\\?.*)?$"
+      ],
+      "hosts": [
+        "us.puma.com"
+      ],
+      "id": "commerce-puma",
+      "listingUrl": "https://us.puma.com/us/en/women",
+      "maxDepth": 0,
+      "maxUrlsPerExecution": 1,
+      "minimumOriginDelaySeconds": 5,
+      "name": "PUMA",
+      "qualificationMaxDepth": 0,
+      "qualificationMaxUrlsPerExecution": 1,
+      "qualificationSeedUrls": [
+        "https://us.puma.com/us/en/pd/speedcat-ballet-suede-womens-sneakers/401287?swatch=02"
+      ],
+      "representativeDetailUrl": "https://us.puma.com/us/en/pd/speedcat-ballet-suede-womens-sneakers/401287?swatch=02",
+      "seedUrls": [
+        "https://us.puma.com/us/en/pd/speedcat-ballet-suede-womens-sneakers/401287?swatch=02"
+      ],
+      "templatePatterns": [
+        "https://us.puma.com/us/en/pd/*"
+      ]
+    },
+    {
+      "constantFields": {},
+      "discoveryPatterns": [
+        "^https?://(?:www\\.)?quince\\.com/(?:women|men|home|baby|kids)/(?:[^/?#]+/[^?#]+(?:\\?.*)?|[^/?#]+\\?[^#]*color=[^#]+)$"
+      ],
+      "hosts": [
+        "www.quince.com"
+      ],
+      "id": "commerce-quince",
+      "listingUrl": "https://www.quince.com/women",
+      "maxDepth": 0,
+      "maxUrlsPerExecution": 1,
+      "minimumOriginDelaySeconds": 5,
+      "name": "Quince",
+      "qualificationMaxDepth": 0,
+      "qualificationMaxUrlsPerExecution": 1,
+      "qualificationSeedUrls": [
+        "https://www.quince.com/women/cashmere/cashmere-crewneck-sweater"
+      ],
+      "representativeDetailUrl": "https://www.quince.com/women/cashmere/cashmere-crewneck-sweater",
+      "seedUrls": [
+        "https://www.quince.com/women/cashmere/cashmere-crewneck-sweater"
+      ],
+      "templatePatterns": [
+        "https://www.quince.com/women/*",
+        "https://www.quince.com/men/*",
+        "https://www.quince.com/home/*",
+        "https://www.quince.com/baby/*",
+        "https://www.quince.com/kids/*"
+      ]
+    },
+    {
+      "constantFields": {},
+      "discoveryPatterns": [
+        "^https?://(?:www\\.)?spanx\\.com/products/[^?#]+(?:\\?.*)?$"
+      ],
+      "hosts": [
+        "spanx.com"
+      ],
+      "id": "commerce-spanx",
+      "listingUrl": "https://spanx.com/collections/new-arrivals",
+      "maxDepth": 0,
+      "maxUrlsPerExecution": 1,
+      "minimumOriginDelaySeconds": 5,
+      "name": "Spanx",
+      "qualificationMaxDepth": 0,
+      "qualificationMaxUrlsPerExecution": 1,
+      "qualificationSeedUrls": [
+        "https://spanx.com/products/spanx-airessentials-pleated-wide-leg-pant?v=48685727580371&bau-context=standard"
+      ],
+      "representativeDetailUrl": "https://spanx.com/products/spanx-airessentials-pleated-wide-leg-pant?v=48685727580371&bau-context=standard",
+      "seedUrls": [
+        "https://spanx.com/products/spanx-airessentials-pleated-wide-leg-pant?v=48685727580371&bau-context=standard"
+      ],
+      "templatePatterns": [
+        "https://spanx.com/products/*"
+      ]
+    },
+    {
+      "constantFields": {},
+      "discoveryPatterns": [
+        "^https?://(?:www\\.)?dsw\\.com/product/[^?#]+(?:\\?.*)?$"
+      ],
+      "hosts": [
+        "www.dsw.com"
+      ],
+      "id": "commerce-dsw",
+      "listingUrl": "https://www.dsw.com/category/womens",
+      "maxDepth": 0,
+      "maxUrlsPerExecution": 1,
+      "minimumOriginDelaySeconds": 5,
+      "name": "DSW",
+      "qualificationMaxDepth": 0,
+      "qualificationMaxUrlsPerExecution": 1,
+      "qualificationSeedUrls": [
+        "https://www.dsw.com/product/ugg-classic-slipper---womens/509585?activeColor=250"
+      ],
+      "representativeDetailUrl": "https://www.dsw.com/product/ugg-classic-slipper---womens/509585?activeColor=250",
+      "seedUrls": [
+        "https://www.dsw.com/product/ugg-classic-slipper---womens/509585?activeColor=250"
+      ],
+      "templatePatterns": [
+        "https://www.dsw.com/product/*"
+      ]
+    }
+  ],
+  "studyId": "general-commerce"
+}

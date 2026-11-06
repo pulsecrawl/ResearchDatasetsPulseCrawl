@@ -1,0 +1,68 @@
+{
+  "engine": "jsonld",
+  "mappings": {
+    "availability": [
+      "Product.offers.availability",
+      "Product.hasVariant.offers.availability"
+    ],
+    "brand": [
+      "Product.brand.name",
+      "Product.brand"
+    ],
+    "canonical_url": [
+      "Product.url",
+      "Product.offers.url"
+    ],
+    "category": [
+      "Product.category"
+    ],
+    "color": [
+      "Product.color"
+    ],
+    "currency": [
+      "Product.offers.priceCurrency",
+      "Product.hasVariant.offers.priceCurrency"
+    ],
+    "description": [
+      "Product.description"
+    ],
+    "image_url": [
+      "Product.image.url",
+      "Product.image",
+      "Product.primaryImageOfPage.contentUrl"
+    ],
+    "name": [
+      "Product.name"
+    ],
+    "price": [
+      "Product.offers.price",
+      "Product.offers.lowPrice",
+      "Product.hasVariant.offers.price",
+      "Product.hasVariant.offers.lowPrice"
+    ],
+    "product_id": [
+      "Product.productID",
+      "Product.mpn"
+    ],
+    "rating_count": [
+      "Product.aggregateRating.ratingCount",
+      "Product.aggregateRating.reviewCount"
+    ],
+    "rating_value": [
+      "Product.aggregateRating.ratingValue"
+    ],
+    "sku": [
+      "Product.sku"
+    ]
+  },
+  "name": "commerce-puma-product-jsonld",
+  "origin": "org",
+  "outputSchemaId": "schema_4b0fb384a7c28fe4cf54",
+  "pageRole": "record",
+  "requiredFields": [
+    "name",
+    "price",
+    "currency"
+  ],
+  "templateId": "commerce-puma-product-jsonld"
+}

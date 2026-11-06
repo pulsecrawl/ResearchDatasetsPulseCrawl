@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "headline": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "finance-fxstreet-article-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_9e311b9de0dd06415031",
+  "pageRole": "navigation",
+  "templateId": "finance-fxstreet-article-navigation"
+}

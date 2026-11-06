@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "name": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "commerce-spanx-product-known-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_e839b4effb8d814f71a3",
+  "pageRole": "navigation",
+  "templateId": "commerce-spanx-product-known-navigation"
+}

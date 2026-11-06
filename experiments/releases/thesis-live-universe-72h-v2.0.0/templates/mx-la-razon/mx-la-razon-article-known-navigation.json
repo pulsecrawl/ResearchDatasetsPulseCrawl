@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "headline": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "mx-la-razon-article-known-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_0760156258209b471aa9",
+  "pageRole": "navigation",
+  "templateId": "mx-la-razon-article-known-navigation"
+}

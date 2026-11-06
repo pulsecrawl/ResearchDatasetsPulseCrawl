@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "title": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "security-github-advisory-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_9a551763994b72f4082d",
+  "pageRole": "navigation",
+  "templateId": "security-github-advisory-navigation"
+}

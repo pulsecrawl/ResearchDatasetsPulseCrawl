@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "headline": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "mx-la-cronica-article-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_4cfef6bfb23cba39a06e",
+  "pageRole": "navigation",
+  "templateId": "mx-la-cronica-article-navigation"
+}

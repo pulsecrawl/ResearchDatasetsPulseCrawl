@@ -1,0 +1,88 @@
+{
+  "exitCodes": {
+    "live-financial-news": 0,
+    "live-general-commerce": 0,
+    "live-mexican-newspapers": 0,
+    "live-security-advisories": 0,
+    "live-us-newspapers": 0
+  },
+  "finishedAt": "2026-11-06T07:37:36.549234+00:00",
+  "outputRoot": "${PULSECRAWL_RESEARCH_ROOT}/research/results/runs/live-thesis-universe-retained-72h-hourly-20261103T073946Z",
+  "phase": "three-day",
+  "schemaVersion": 1,
+  "startedAt": "2026-11-03T07:39:47.091995+00:00",
+  "status": "completed",
+  "updatedAt": "2026-11-06T07:37:36.549184+00:00",
+  "workers": {
+    "live-financial-news": {
+      "exitCode": 0,
+      "pid": 25607,
+      "progress": {
+        "completedCycles": 72,
+        "failedSiteExecutions": 0,
+        "lastCompletedAt": "2026-11-06T07:15:43.718817+00:00",
+        "plannedCycles": 72,
+        "runDirectory": "${PULSECRAWL_RESEARCH_ROOT}/research/results/runs/live-thesis-universe-retained-72h-hourly-20261103T073946Z/20261103T073947Z-live-financial-news-5109d4b5",
+        "siteExecutions": 1440,
+        "status": "completed"
+      },
+      "running": false
+    },
+    "live-general-commerce": {
+      "exitCode": 0,
+      "pid": 25608,
+      "progress": {
+        "completedCycles": 72,
+        "failedSiteExecutions": 0,
+        "lastCompletedAt": "2026-11-06T07:20:14.619703+00:00",
+        "plannedCycles": 72,
+        "runDirectory": "${PULSECRAWL_RESEARCH_ROOT}/research/results/runs/live-thesis-universe-retained-72h-hourly-20261103T073946Z/20261103T073947Z-live-general-commerce-7b139bb4",
+        "siteExecutions": 576,
+        "status": "completed"
+      },
+      "running": false
+    },
+    "live-mexican-newspapers": {
+      "exitCode": 0,
+      "pid": 25605,
+      "progress": {
+        "completedCycles": 72,
+        "failedSiteExecutions": 0,
+        "lastCompletedAt": "2026-11-06T07:25:46.957132+00:00",
+        "plannedCycles": 72,
+        "runDirectory": "${PULSECRAWL_RESEARCH_ROOT}/research/results/runs/live-thesis-universe-retained-72h-hourly-20261103T073946Z/20261103T073947Z-live-mexican-newspapers-893f8fd5",
+        "siteExecutions": 1368,
+        "status": "completed"
+      },
+      "running": false
+    },
+    "live-security-advisories": {
+      "exitCode": 0,
+      "pid": 25609,
+      "progress": {
+        "completedCycles": 72,
+        "failedSiteExecutions": 0,
+        "lastCompletedAt": "2026-11-06T07:37:22.809853+00:00",
+        "plannedCycles": 72,
+        "runDirectory": "${PULSECRAWL_RESEARCH_ROOT}/research/results/runs/live-thesis-universe-retained-72h-hourly-20261103T073946Z/20261103T073947Z-live-security-advisories-7d53cce9",
+        "siteExecutions": 576,
+        "status": "completed"
+      },
+      "running": false
+    },
+    "live-us-newspapers": {
+      "exitCode": 0,
+      "pid": 25606,
+      "progress": {
+        "completedCycles": 72,
+        "failedSiteExecutions": 0,
+        "lastCompletedAt": "2026-11-06T07:32:35.127210+00:00",
+        "plannedCycles": 72,
+        "runDirectory": "${PULSECRAWL_RESEARCH_ROOT}/research/results/runs/live-thesis-universe-retained-72h-hourly-20261103T073946Z/20261103T073947Z-live-us-newspapers-1c835a9b",
+        "siteExecutions": 1440,
+        "status": "completed"
+      },
+      "running": false
+    }
+  }
+}

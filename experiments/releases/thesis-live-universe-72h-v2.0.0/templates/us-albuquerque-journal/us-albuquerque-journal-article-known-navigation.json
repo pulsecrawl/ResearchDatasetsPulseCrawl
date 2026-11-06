@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "headline": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "us-albuquerque-journal-article-known-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_b5dc788205d09873f3bc",
+  "pageRole": "navigation",
+  "templateId": "us-albuquerque-journal-article-known-navigation"
+}

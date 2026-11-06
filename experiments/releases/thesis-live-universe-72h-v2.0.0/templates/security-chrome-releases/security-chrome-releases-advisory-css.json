@@ -1,0 +1,25 @@
+{
+  "engine": "css",
+  "mappings": {
+    "canonical_url": [
+      "link[rel='canonical']@href"
+    ],
+    "title": [
+      "main h1",
+      "article h1",
+      "h1"
+    ],
+    "vendor": [
+      "literal:Chrome Releases"
+    ]
+  },
+  "name": "security-chrome-releases-advisory-css",
+  "origin": "org",
+  "outputSchemaId": "schema_158db1e57c7a8bd849a0",
+  "pageRole": "record",
+  "requiredFields": [
+    "title",
+    "canonical_url"
+  ],
+  "templateId": "security-chrome-releases-advisory-css"
+}

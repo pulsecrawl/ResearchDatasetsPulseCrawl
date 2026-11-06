@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "headline": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "mx-el-informador-article-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_98e40abde64cdebac848",
+  "pageRole": "navigation",
+  "templateId": "mx-el-informador-article-navigation"
+}

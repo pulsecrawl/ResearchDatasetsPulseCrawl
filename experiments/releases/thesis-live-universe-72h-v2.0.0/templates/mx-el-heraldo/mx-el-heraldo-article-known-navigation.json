@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "headline": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "mx-el-heraldo-article-known-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_172feba2ab6225443af8",
+  "pageRole": "navigation",
+  "templateId": "mx-el-heraldo-article-known-navigation"
+}

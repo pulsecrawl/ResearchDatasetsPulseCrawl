@@ -1,0 +1,42 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "availability": [
+      "product:availability"
+    ],
+    "canonical_url": [
+      "og:url"
+    ],
+    "currency": [
+      "product:price:currency",
+      "og:price:currency"
+    ],
+    "description": [
+      "og:description",
+      "description"
+    ],
+    "image_url": [
+      "og:image",
+      "twitter:image"
+    ],
+    "name": [
+      "og:title",
+      "twitter:title",
+      "<title>"
+    ],
+    "price": [
+      "product:price:amount",
+      "og:price:amount"
+    ]
+  },
+  "name": "commerce-puma-product-meta",
+  "origin": "org",
+  "outputSchemaId": "schema_4b0fb384a7c28fe4cf54",
+  "pageRole": "record",
+  "requiredFields": [
+    "name",
+    "price",
+    "currency"
+  ],
+  "templateId": "commerce-puma-product-meta"
+}

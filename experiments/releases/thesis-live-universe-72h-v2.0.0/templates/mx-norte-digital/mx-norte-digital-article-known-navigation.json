@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "headline": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "mx-norte-digital-article-known-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_394f942d883839d52ca8",
+  "pageRole": "navigation",
+  "templateId": "mx-norte-digital-article-known-navigation"
+}

@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import csv
+from collections import Counter
 import hashlib
 import importlib.metadata
 import json
@@ -14,6 +15,7 @@ from typing import Any
 
 ROOT = Path(__file__).resolve().parents[3]
 LIVE_RELEASE = ROOT / "experiments/releases/thesis-live-universe-v1.0.0"
+THREE_DAY_RELEASE = ROOT / "experiments/releases/thesis-live-universe-72h-v2.0.0"
 EXPECTED_DATASETS = {"fixed-html": 60, "site-pattern-html": 100, "commerce-html": 20}
 EXPECTED_FAMILIES = {"policy-and-recovery", "template-extraction", "versioned-datasets"}
 EXPECTED_LIVE_CATEGORIES = {
@@ -44,6 +46,34 @@ LIVE_TABLES = {
     "site-summary",
     "suppressed-page-samples",
 }
+EXPECTED_THREE_DAY_TOTALS = {
+    "executions": 5400,
+    "pagesFailed": 78668,
+    "pagesFetched": 6971063,
+    "publishedRows": 466141,
+    "robotsBlocked": 28437,
+    "sites": 75,
+    "successfulExecutions": 5400,
+    "summedSiteUniqueSourceUrls": 100098,
+}
+EXPECTED_THREE_DAY_DEFINITIONS = {
+    "fields": 707,
+    "jobs": 75,
+    "manifests": 5,
+    "schedulerPlans": 5,
+    "templates": 316,
+}
+EXPECTED_THREE_DAY_TRANSFORMATIONS = {
+    "absolute-workstation-path-redaction": 32,
+    "transient-oracle-logout-token-redaction": 3,
+}
+EXPECTED_THREE_DAY_SOURCE_FILES = 14215
+EXPECTED_THREE_DAY_SOURCE_BYTES = 9959537072
+EXPECTED_THREE_DAY_PUBLISHED_BYTES = 9954692984
+EXPECTED_THREE_DAY_SUITE_ENTRIES = 14004
+EXPECTED_THREE_DAY_SUITE_MANIFEST_SHA256 = (
+    "c277ce7215298f374686bbbda2e9c0fde5cd6dbccc4b365843811e8344522d41"
+)
 SHA256_PATTERN = re.compile(r"[a-f0-9]{64}")
 
 
@@ -254,6 +284,177 @@ def verify_live_release() -> dict[str, int | str]:
     }
 
 
+def _csv_rows(path: Path) -> list[dict[str, str]]:
+    with path.open(encoding="utf-8", newline="") as handle:
+        return list(csv.DictReader(handle))
+
+
+def _checksum_rows(path: Path) -> dict[str, str]:
+    result: dict[str, str] = {}
+    for line in path.read_text(encoding="utf-8").splitlines():
+        digest, name = line.split("  ", 1)
+        if not SHA256_PATTERN.fullmatch(digest) or name in result:
+            raise ValueError(f"invalid or duplicate checksum in {path.relative_to(ROOT)}")
+        result[name] = digest
+    return result
+
+
+def verify_three_day_live_release() -> dict[str, int | str]:
+    manifest = _json(THREE_DAY_RELEASE / "release-manifest.json")
+    if (
+        manifest.get("releaseId") != "thesis-live-universe-72h-v2.0.0"
+        or manifest.get("release") != "2.0.0"
+        or manifest.get("phase") != "three-day"
+        or manifest.get("status")
+        not in {"completed-reviewed-and-packaged", "completed-reviewed-and-published"}
+    ):
+        raise ValueError("three-day release identity or status differs")
+    if manifest.get("totals") != EXPECTED_THREE_DAY_TOTALS:
+        raise ValueError("three-day release totals differ")
+    if manifest.get("definitionCounts") != EXPECTED_THREE_DAY_DEFINITIONS:
+        raise ValueError("three-day definition counts differ")
+    if (
+        manifest.get("missedRunCount") != 0
+        or manifest.get("schedulerErrors") != 0
+        or manifest.get("requiredPackage") != "pulsecrawl[workspace]==0.4.0"
+        or manifest.get("retainsRawHtml") is not False
+        or manifest.get("appleEvidenceRetained") is not True
+        or "apple-support-template-scope" not in manifest.get("knownSemanticLimitations", [])
+    ):
+        raise ValueError("three-day protocol or limitation disclosure differs")
+
+    categories = manifest.get("categories", [])
+    observed_categories = {row["category"]: int(row["sites"]) for row in categories}
+    if observed_categories != EXPECTED_LIVE_CATEGORIES:
+        raise ValueError(f"three-day categories differ: {observed_categories}")
+    category_rows = _csv_rows(THREE_DAY_RELEASE / "category-summary.csv")
+    if len(category_rows) != 5:
+        raise ValueError("three-day category summary count differs")
+    for row in category_rows:
+        matching = next(item for item in categories if item["category"] == row["category"])
+        for name in matching:
+            if name == "category":
+                continue
+            if int(row[name]) != int(matching[name]):
+                raise ValueError(f"three-day category value differs: {row['category']}/{name}")
+
+    site_rows = _csv_rows(THREE_DAY_RELEASE / "site-summary.csv")
+    if len(site_rows) != 75 or len({row["site_id"] for row in site_rows}) != 75:
+        raise ValueError("three-day site summary count or identifiers differ")
+    if any(
+        int(row["executions"]) != 72 or int(row["successful_executions"]) != 72
+        for row in site_rows
+    ):
+        raise ValueError("one or more three-day sites lack 72 successful executions")
+
+    execution_rows = _csv_rows(THREE_DAY_RELEASE / "execution-summary.csv")
+    if len(execution_rows) != 5400:
+        raise ValueError("three-day execution summary count differs")
+    per_site = Counter(row["site_id"] for row in execution_rows)
+    if set(per_site) != {row["site_id"] for row in site_rows} or set(per_site.values()) != {72}:
+        raise ValueError("three-day per-site execution counts differ")
+    if any(row["status"] != "succeeded" or row["error"] for row in execution_rows):
+        raise ValueError("three-day execution contains a non-success terminal status")
+
+    source_verification = _json(THREE_DAY_RELEASE / "source-verification.json")
+    original_suite = THREE_DAY_RELEASE / "original-suite-checksums.sha256"
+    if (
+        source_verification.get("verificationStatus") != "passed"
+        or source_verification.get("verifiedEntries") != EXPECTED_THREE_DAY_SUITE_ENTRIES
+        or source_verification.get("manifestSha256")
+        != EXPECTED_THREE_DAY_SUITE_MANIFEST_SHA256
+        or len(original_suite.read_text(encoding="utf-8").splitlines())
+        != EXPECTED_THREE_DAY_SUITE_ENTRIES
+        or hashlib.sha256(original_suite.read_bytes()).hexdigest()
+        != EXPECTED_THREE_DAY_SUITE_MANIFEST_SHA256
+    ):
+        raise ValueError("three-day original-suite verification differs")
+
+    provenance = _json(THREE_DAY_RELEASE / "provenance.json")
+    if provenance.get("pulseCrawl") != {
+        "distribution": "pulsecrawl",
+        "importKind": "site-packages",
+        "installation": "public index-installed distribution",
+        "version": "0.4.0",
+    }:
+        raise ValueError("three-day package provenance differs")
+
+    inventory = _csv_rows(THREE_DAY_RELEASE / "RELEASE-FILES.csv")
+    if len(inventory) != EXPECTED_THREE_DAY_SOURCE_FILES:
+        raise ValueError("three-day source inventory count differs")
+    if sum(int(row["size_bytes"]) for row in inventory) != EXPECTED_THREE_DAY_SOURCE_BYTES:
+        raise ValueError("three-day source inventory byte total differs")
+    inventory_keys = {(row["source_root"], row["relative_path"]) for row in inventory}
+    if len(inventory_keys) != len(inventory) or any(
+        not SHA256_PATTERN.fullmatch(row["sha256"]) for row in inventory
+    ):
+        raise ValueError("three-day source inventory path or checksum differs")
+    transformations = Counter(
+        name
+        for row in inventory
+        for name in row["publication_transformations"].split(";")
+        if name
+    )
+    if dict(transformations) != EXPECTED_THREE_DAY_TRANSFORMATIONS:
+        raise ValueError("three-day publication transformations differ")
+
+    asset_manifest = _json(THREE_DAY_RELEASE / "asset-manifest.json")
+    if (
+        asset_manifest.get("sourceFiles") != EXPECTED_THREE_DAY_SOURCE_FILES
+        or asset_manifest.get("sourceBytes") != EXPECTED_THREE_DAY_SOURCE_BYTES
+        or asset_manifest.get("publishedFiles") != EXPECTED_THREE_DAY_SOURCE_FILES
+        or asset_manifest.get("publicationTransformations")
+        != EXPECTED_THREE_DAY_TRANSFORMATIONS
+        or len(asset_manifest.get("archives", [])) != 7
+        or sum(row["members"] for row in asset_manifest["archives"])
+        != EXPECTED_THREE_DAY_SOURCE_FILES
+        or sum(row["uncompressedBytes"] for row in asset_manifest["archives"])
+        != EXPECTED_THREE_DAY_PUBLISHED_BYTES
+    ):
+        raise ValueError("three-day asset manifest differs")
+
+    asset_checksums = _checksum_rows(THREE_DAY_RELEASE / "asset-checksums.sha256")
+    if set(asset_checksums) != set(manifest["expectedAssets"]) - {"thesis-72h-SHA256SUMS"}:
+        raise ValueError("three-day asset checksum coverage differs")
+    if (
+        hashlib.sha256((THREE_DAY_RELEASE / "asset-manifest.json").read_bytes()).hexdigest()
+        != manifest["assetManifestSha256"]
+        or hashlib.sha256((THREE_DAY_RELEASE / "asset-checksums.sha256").read_bytes()).hexdigest()
+        != manifest["assetChecksumsSha256"]
+    ):
+        raise ValueError("three-day compact asset metadata checksums differ")
+    published_checksums = _checksum_rows(THREE_DAY_RELEASE / "published-files.sha256")
+    if len(published_checksums) != EXPECTED_THREE_DAY_SOURCE_FILES:
+        raise ValueError("three-day published-file checksum count differs")
+    if (
+        hashlib.sha256((THREE_DAY_RELEASE / "published-files.sha256").read_bytes()).hexdigest()
+        != manifest["publishedFileChecksumsSha256"]
+    ):
+        raise ValueError("three-day published-file checksum manifest differs")
+    verification = manifest.get("assetVerification", {})
+    if verification != {
+        "archiveGroups": 7,
+        "privateWorkstationPaths": 0,
+        "publishedFiles": EXPECTED_THREE_DAY_SOURCE_FILES,
+        "status": "passed",
+        "transformedFilesVerified": 35,
+        "unredactedOracleLogoutTokens": 0,
+    }:
+        raise ValueError("three-day asset verification result differs")
+
+    verify_directory_checksums(THREE_DAY_RELEASE)
+    return {
+        "release": manifest["release"],
+        "categories": len(categories),
+        "sites": len(site_rows),
+        "siteExecutions": len(execution_rows),
+        "pagesFetched": manifest["totals"]["pagesFetched"],
+        "publishedRows": manifest["totals"]["publishedRows"],
+        "sourceFiles": len(inventory),
+        "assetFiles": len(manifest["expectedAssets"]),
+    }
+
+
 def verify_documentation() -> dict[str, int]:
     required = {
         "README.md",
@@ -326,6 +527,7 @@ def main() -> int:
         "metadata": verify_research_metadata(),
         "controlledEvidence": verify_controlled_evidence(),
         "liveRelease": verify_live_release(),
+        "threeDayLiveRelease": verify_three_day_live_release(),
         "documentation": verify_documentation(),
     }
     privacy_scan()

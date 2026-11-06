@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "headline": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "us-salt-lake-tribune-article-known-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_f30d9fa0f81ba3a484e3",
+  "pageRole": "navigation",
+  "templateId": "us-salt-lake-tribune-article-known-navigation"
+}

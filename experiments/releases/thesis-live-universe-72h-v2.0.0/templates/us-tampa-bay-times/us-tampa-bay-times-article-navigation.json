@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "headline": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "us-tampa-bay-times-article-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_8ec56fba9e6d7c9ccaff",
+  "pageRole": "navigation",
+  "templateId": "us-tampa-bay-times-article-navigation"
+}

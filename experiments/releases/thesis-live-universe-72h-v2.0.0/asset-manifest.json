@@ -1,0 +1,140 @@
+{
+  "archivePrefix": "thesis-live-universe-72h-v2.0.0",
+  "archives": [
+    {
+      "group": "analysis",
+      "members": 60,
+      "parts": [
+        "thesis-72h-analysis.tar.zst"
+      ],
+      "uncompressedBytes": 2760188181
+    },
+    {
+      "group": "run-financial-news",
+      "members": 3433,
+      "parts": [
+        "thesis-72h-run-financial-news.tar.zst"
+      ],
+      "uncompressedBytes": 1483500445
+    },
+    {
+      "group": "run-general-commerce",
+      "members": 1957,
+      "parts": [
+        "thesis-72h-run-general-commerce.tar.zst"
+      ],
+      "uncompressedBytes": 811073299
+    },
+    {
+      "group": "run-metadata",
+      "members": 20,
+      "parts": [
+        "thesis-72h-run-metadata.tar.zst"
+      ],
+      "uncompressedBytes": 77562665
+    },
+    {
+      "group": "run-mexican-newspapers",
+      "members": 3535,
+      "parts": [
+        "thesis-72h-run-mexican-newspapers.tar.zst"
+      ],
+      "uncompressedBytes": 1841868384
+    },
+    {
+      "group": "run-security-advisories",
+      "members": 901,
+      "parts": [
+        "thesis-72h-run-security-advisories.tar.zst"
+      ],
+      "uncompressedBytes": 535143182
+    },
+    {
+      "group": "run-us-newspapers",
+      "members": 4309,
+      "parts": [
+        "thesis-72h-run-us-newspapers.tar.zst"
+      ],
+      "uncompressedBytes": 2445356828
+    }
+  ],
+  "assets": [
+    {
+      "bytes": 178620476,
+      "file": "thesis-72h-analysis.tar.zst",
+      "group": "analysis",
+      "part": 1,
+      "partCount": 1,
+      "sha256": "9839537dc09440f4878e4f13135629e6e452d9d5d73395ed358a46e8c2bfa798"
+    },
+    {
+      "bytes": 153345955,
+      "file": "thesis-72h-run-financial-news.tar.zst",
+      "group": "run-financial-news",
+      "part": 1,
+      "partCount": 1,
+      "sha256": "0857a31cdec51c2268c35e0b583e4e23a4edcf2cc491e32c712a0b554497c74e"
+    },
+    {
+      "bytes": 137134615,
+      "file": "thesis-72h-run-general-commerce.tar.zst",
+      "group": "run-general-commerce",
+      "part": 1,
+      "partCount": 1,
+      "sha256": "957f75a067cfb8293c19d4b9bdea70a317d75260954c2230dc26b9f8d9db7122"
+    },
+    {
+      "bytes": 1876870,
+      "file": "thesis-72h-run-metadata.tar.zst",
+      "group": "run-metadata",
+      "part": 1,
+      "partCount": 1,
+      "sha256": "ab0e8f4174f5b8c627d546063a40ec27c290dca0ab9e9bf19c215d3a7410ed1a"
+    },
+    {
+      "bytes": 220858079,
+      "file": "thesis-72h-run-mexican-newspapers.tar.zst",
+      "group": "run-mexican-newspapers",
+      "part": 1,
+      "partCount": 1,
+      "sha256": "b480a8ef7ba9127ab35ff10736a3880ae7d64582e7603f3f5515105814bd9bdc"
+    },
+    {
+      "bytes": 52007278,
+      "file": "thesis-72h-run-security-advisories.tar.zst",
+      "group": "run-security-advisories",
+      "part": 1,
+      "partCount": 1,
+      "sha256": "dca844bbc04383e9442bb059e93c4a3d2703c11cf347681b0d81adbe745f12c5"
+    },
+    {
+      "bytes": 296394869,
+      "file": "thesis-72h-run-us-newspapers.tar.zst",
+      "group": "run-us-newspapers",
+      "part": 1,
+      "partCount": 1,
+      "sha256": "d8e7a92927c4bd2d30bba3325beb8ec84236fd89299ca5d9bdaff12e04cc1904"
+    },
+    {
+      "bytes": 4202549,
+      "file": "thesis-72h-PUBLISHED-FILES.sha256",
+      "group": "published-checksums",
+      "part": 1,
+      "partCount": 1,
+      "sha256": "89257102be848eb3ffde8ce32c62e6744eac9acd9255be11a94baa75e4597bb8"
+    }
+  ],
+  "publicationTransformations": {
+    "absolute-workstation-path-redaction": 32,
+    "transient-oracle-logout-token-redaction": 3
+  },
+  "publishedFiles": 14215,
+  "reconstruction": {
+    "multipleParts": "cat ASSET.tar.zst.part* | zstd -dc | tar -xf -",
+    "singlePart": "zstd -dc ASSET.tar.zst | tar -xf -"
+  },
+  "releaseId": "thesis-live-universe-72h-v2.0.0",
+  "schemaVersion": 1,
+  "sourceBytes": 9959537072,
+  "sourceFiles": 14215
+}
