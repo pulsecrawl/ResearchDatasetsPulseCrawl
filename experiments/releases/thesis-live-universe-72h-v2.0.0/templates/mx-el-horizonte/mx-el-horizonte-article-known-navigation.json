@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "headline": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "mx-el-horizonte-article-known-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_e3b4f481d097e6033ef1",
+  "pageRole": "navigation",
+  "templateId": "mx-el-horizonte-article-known-navigation"
+}

@@ -1,0 +1,313 @@
+{
+  "createdAt": "2026-11-03T07:40:05.882354+00:00",
+  "datasetId": "ds_a46033eb857a8d544928",
+  "jobId": "job_1698d723c5affa9ca9a6",
+  "maxDurationSeconds": null,
+  "name": "general-commerce: Nike",
+  "politeness": {
+    "organizationRequestsPerSecond": 1.0,
+    "requestsPerSecond": 1.0,
+    "respectRobotsTxt": true,
+    "userAgent": "PulseCrawlResearchBot/0.1 (+https://github.com/pulsecrawl/research-datasets)"
+  },
+  "schema": {
+    "fields": [
+      {
+        "fieldId": "product_id",
+        "name": "product_id",
+        "type": "string"
+      },
+      {
+        "fieldId": "sku",
+        "name": "sku",
+        "type": "string"
+      },
+      {
+        "fieldId": "name",
+        "name": "name",
+        "type": "string"
+      },
+      {
+        "fieldId": "canonical_url",
+        "name": "canonical_url",
+        "type": "url"
+      },
+      {
+        "fieldId": "description",
+        "name": "description",
+        "type": "string"
+      },
+      {
+        "fieldId": "brand",
+        "name": "brand",
+        "type": "string"
+      },
+      {
+        "fieldId": "category",
+        "name": "category",
+        "type": "string"
+      },
+      {
+        "fieldId": "color",
+        "name": "color",
+        "type": "string"
+      },
+      {
+        "fieldId": "price",
+        "name": "price",
+        "type": "number"
+      },
+      {
+        "fieldId": "currency",
+        "name": "currency",
+        "type": "string"
+      },
+      {
+        "fieldId": "availability",
+        "name": "availability",
+        "type": "string"
+      },
+      {
+        "fieldId": "image_url",
+        "name": "image_url",
+        "type": "url"
+      },
+      {
+        "fieldId": "rating_value",
+        "name": "rating_value",
+        "type": "number"
+      },
+      {
+        "fieldId": "rating_count",
+        "name": "rating_count",
+        "type": "number"
+      }
+    ],
+    "schemaId": "schema_fb7f0b69cb06b9e52de8"
+  },
+  "scope": {
+    "excludePatterns": [],
+    "includePatterns": [],
+    "maxDepth": 5,
+    "maxUrlsPerExecution": 1500,
+    "maxUrlsTotal": 108000,
+    "sameDomainOnly": true
+  },
+  "seeds": [
+    "https://www.nike.com/t/air-max-moto-2k-womens-shoes-with-reflective-accents-xfKLxDbe/HQ2056-203"
+  ],
+  "storeRawPages": false,
+  "systemTemplates": [],
+  "templates": [
+    {
+      "engine": "jsonld",
+      "mappings": {
+        "availability": [
+          "Product.offers.availability",
+          "Product.hasVariant.offers.availability"
+        ],
+        "brand": [
+          "Product.brand.name",
+          "Product.brand"
+        ],
+        "canonical_url": [
+          "Product.url",
+          "Product.offers.url"
+        ],
+        "category": [
+          "Product.category"
+        ],
+        "color": [
+          "Product.color"
+        ],
+        "currency": [
+          "Product.offers.priceCurrency",
+          "Product.hasVariant.offers.priceCurrency"
+        ],
+        "description": [
+          "Product.description"
+        ],
+        "image_url": [
+          "Product.image.url",
+          "Product.image",
+          "Product.primaryImageOfPage.contentUrl"
+        ],
+        "name": [
+          "Product.name"
+        ],
+        "price": [
+          "Product.offers.price",
+          "Product.offers.lowPrice",
+          "Product.hasVariant.offers.price",
+          "Product.hasVariant.offers.lowPrice"
+        ],
+        "product_id": [
+          "Product.productID",
+          "Product.mpn"
+        ],
+        "rating_count": [
+          "Product.aggregateRating.ratingCount",
+          "Product.aggregateRating.reviewCount"
+        ],
+        "rating_value": [
+          "Product.aggregateRating.ratingValue"
+        ],
+        "sku": [
+          "Product.sku"
+        ]
+      },
+      "origin": "org",
+      "pageRole": "record",
+      "requiredFields": [
+        "name",
+        "price",
+        "currency"
+      ],
+      "scope": {
+        "hosts": [
+          "www.nike.com"
+        ],
+        "urlPatterns": [
+          "https://www.nike.com/t/*"
+        ]
+      },
+      "templateId": "commerce-nike-product-jsonld"
+    },
+    {
+      "engine": "css",
+      "mappings": {
+        "canonical_url": [
+          "link[rel='canonical']@href"
+        ],
+        "currency": [
+          "[itemprop='priceCurrency']@content",
+          "meta[property='product:price:currency']@content"
+        ],
+        "image_url": [
+          "meta[property='og:image:secure_url']@content",
+          "meta[property='og:image']@content"
+        ],
+        "name": [
+          "[itemprop='name']@content",
+          "h1.product__title",
+          "h1.product-title",
+          "main h1"
+        ],
+        "price": [
+          "[itemprop='price']@content",
+          "[data-product-price]@data-product-price",
+          "meta[property='product:price:amount']@content",
+          ".price-item--sale",
+          ".price-item--regular",
+          "[data-testid*='currentPrice']",
+          "[data-wk-name='purchasePodProductPrice']"
+        ],
+        "sku": [
+          "[itemprop='sku']@content",
+          "[data-product-sku]"
+        ]
+      },
+      "origin": "org",
+      "pageRole": "record",
+      "requiredFields": [
+        "name",
+        "price",
+        "currency"
+      ],
+      "scope": {
+        "hosts": [
+          "www.nike.com"
+        ],
+        "urlPatterns": [
+          "https://www.nike.com/t/*"
+        ]
+      },
+      "templateId": "commerce-nike-product-css"
+    },
+    {
+      "engine": "meta",
+      "mappings": {
+        "availability": [
+          "product:availability"
+        ],
+        "canonical_url": [
+          "og:url"
+        ],
+        "currency": [
+          "product:price:currency",
+          "og:price:currency"
+        ],
+        "description": [
+          "og:description",
+          "description"
+        ],
+        "image_url": [
+          "og:image",
+          "twitter:image"
+        ],
+        "name": [
+          "og:title",
+          "twitter:title",
+          "<title>"
+        ],
+        "price": [
+          "product:price:amount",
+          "og:price:amount"
+        ]
+      },
+      "origin": "org",
+      "pageRole": "record",
+      "requiredFields": [
+        "name",
+        "price",
+        "currency"
+      ],
+      "scope": {
+        "hosts": [
+          "www.nike.com"
+        ],
+        "urlPatterns": [
+          "https://www.nike.com/t/*"
+        ]
+      },
+      "templateId": "commerce-nike-product-meta"
+    },
+    {
+      "engine": "meta",
+      "mappings": {
+        "name": [
+          "<title>",
+          "og:title"
+        ]
+      },
+      "origin": "org",
+      "pageRole": "navigation",
+      "scope": {
+        "hosts": [
+          "www.nike.com"
+        ],
+        "urlPatterns": [
+          "https://www.nike.com/w/womens-shoes-5e1x6zy7ok"
+        ]
+      },
+      "templateId": "commerce-nike-product-known-navigation"
+    },
+    {
+      "engine": "meta",
+      "mappings": {
+        "name": [
+          "<title>",
+          "og:title"
+        ]
+      },
+      "origin": "org",
+      "pageRole": "navigation",
+      "scope": {
+        "hosts": [
+          "www.nike.com"
+        ]
+      },
+      "templateId": "commerce-nike-product-navigation"
+    }
+  ]
+}

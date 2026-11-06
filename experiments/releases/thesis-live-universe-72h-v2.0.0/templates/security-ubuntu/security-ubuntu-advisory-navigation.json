@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "title": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "security-ubuntu-advisory-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_e1f1270269bd9d47fd60",
+  "pageRole": "navigation",
+  "templateId": "security-ubuntu-advisory-navigation"
+}

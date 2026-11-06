@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "headline": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "finance-bnn-bloomberg-article-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_bfb5c56b2248d0c1a511",
+  "pageRole": "navigation",
+  "templateId": "finance-bnn-bloomberg-article-navigation"
+}

@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "headline": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "finance-fox-business-article-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_f86ac47cddc1843c8044",
+  "pageRole": "navigation",
+  "templateId": "finance-fox-business-article-navigation"
+}

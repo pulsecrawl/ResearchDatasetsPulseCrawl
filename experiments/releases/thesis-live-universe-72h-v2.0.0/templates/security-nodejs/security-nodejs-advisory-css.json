@@ -1,0 +1,25 @@
+{
+  "engine": "css",
+  "mappings": {
+    "canonical_url": [
+      "link[rel='canonical']@href"
+    ],
+    "title": [
+      "main h1",
+      "article h1",
+      "h1"
+    ],
+    "vendor": [
+      "literal:Node.js Security Releases"
+    ]
+  },
+  "name": "security-nodejs-advisory-css",
+  "origin": "org",
+  "outputSchemaId": "schema_ecd74d55d4ef2673097e",
+  "pageRole": "record",
+  "requiredFields": [
+    "title",
+    "canonical_url"
+  ],
+  "templateId": "security-nodejs-advisory-css"
+}

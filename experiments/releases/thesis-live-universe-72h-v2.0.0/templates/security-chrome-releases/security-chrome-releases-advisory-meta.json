@@ -1,0 +1,37 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "canonical_url": [
+      "og:url"
+    ],
+    "published_at": [
+      "article:published_time",
+      "date"
+    ],
+    "summary": [
+      "og:description",
+      "description"
+    ],
+    "title": [
+      "og:title",
+      "twitter:title",
+      "<title>"
+    ],
+    "updated_at": [
+      "article:modified_time",
+      "og:updated_time"
+    ],
+    "vendor": [
+      "literal:Chrome Releases"
+    ]
+  },
+  "name": "security-chrome-releases-advisory-meta",
+  "origin": "org",
+  "outputSchemaId": "schema_158db1e57c7a8bd849a0",
+  "pageRole": "record",
+  "requiredFields": [
+    "title",
+    "canonical_url"
+  ],
+  "templateId": "security-chrome-releases-advisory-meta"
+}

@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "headline": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "mx-sdp-noticias-article-known-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_c66c24d95f4986a10e93",
+  "pageRole": "navigation",
+  "templateId": "mx-sdp-noticias-article-known-navigation"
+}

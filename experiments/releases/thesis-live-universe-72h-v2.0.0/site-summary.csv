@@ -1,0 +1,76 @@
+run_id,study,site_id,site_name,executions,successful_executions,published_rows,unique_published_urls,complete_rows,complete_rows_percent,pages_fetched,pages_failed,pages_discovered,records_extracted,record_pages,navigation_pages,ignored_pages,unmatched_pages,robots_blocked
+20261103T073947Z-live-financial-news-5109d4b5,financial-news,finance-bnn-bloomberg,BNN Bloomberg,72,72,1048,1048,1048,100.0,67454,99,75034,50653,50653,16800,0,1,0
+20261103T073947Z-live-financial-news-5109d4b5,financial-news,finance-business-insider,Business Insider Markets,72,72,899,898,899,100.0,106497,0,107856,53375,53303,53194,0,0,563
+20261103T073947Z-live-financial-news-5109d4b5,financial-news,finance-cbs-moneywatch,CBS MoneyWatch,72,72,246,246,246,100.0,106667,81,107856,7690,7690,97831,0,1146,0
+20261103T073947Z-live-financial-news-5109d4b5,financial-news,finance-cnbc,CNBC Markets,72,72,1129,1119,1129,100.0,106368,7,107856,64893,64359,42009,0,0,7
+20261103T073947Z-live-financial-news-5109d4b5,financial-news,finance-daily-upside,The Daily Upside,72,72,903,903,903,100.0,79782,90,80892,46651,46651,33131,0,0,0
+20261103T073947Z-live-financial-news-5109d4b5,financial-news,finance-economic-times,Economic Times Markets,72,72,759,758,759,100.0,106678,150,107856,14587,14575,92103,0,0,0
+20261103T073947Z-live-financial-news-5109d4b5,financial-news,finance-financial-post,Financial Post,72,72,213,107,213,100.0,76368,17709,107856,12978,6496,69872,0,0,0
+20261103T073947Z-live-financial-news-5109d4b5,financial-news,finance-finbold,Finbold,72,72,1045,1045,1045,100.0,99876,1191,107856,65687,65687,34189,0,0,0
+20261103T073947Z-live-financial-news-5109d4b5,financial-news,finance-fortune,Fortune Finance,72,72,729,729,729,100.0,101941,1719,107856,38436,38436,63505,0,0,0
+20261103T073947Z-live-financial-news-5109d4b5,financial-news,finance-fox-business,Fox Business Markets,72,72,71,71,71,100.0,99340,361,107856,4676,4676,94664,0,0,0
+20261103T073947Z-live-financial-news-5109d4b5,financial-news,finance-fxstreet,FXStreet,72,72,230,230,230,100.0,102441,907,107856,9420,9420,93021,0,0,0
+20261103T073947Z-live-financial-news-5109d4b5,financial-news,finance-guardian-business,The Guardian Business,72,72,30,30,30,100.0,104970,740,107856,1637,1637,103333,0,0,0
+20261103T073947Z-live-financial-news-5109d4b5,financial-news,finance-kiplinger,Kiplinger,72,72,615,612,615,100.0,105637,9,107856,29243,29114,76451,0,72,0
+20261103T073947Z-live-financial-news-5109d4b5,financial-news,finance-kitco,Kitco News,72,72,233,233,233,100.0,107205,290,107856,12111,12111,95094,0,0,0
+20261103T073947Z-live-financial-news-5109d4b5,financial-news,finance-mint,Mint Markets,72,72,1735,1727,1735,100.0,103417,363,107856,56829,56518,46180,0,719,0
+20261103T073947Z-live-financial-news-5109d4b5,financial-news,finance-moneyweek,MoneyWeek,72,72,408,394,408,100.0,107925,71,107856,23891,22998,84864,0,63,0
+20261103T073947Z-live-financial-news-5109d4b5,financial-news,finance-motley-fool,The Motley Fool,72,72,980,980,980,100.0,102898,280,107856,11618,11618,91280,0,0,1656
+20261103T073947Z-live-financial-news-5109d4b5,financial-news,finance-sherwood,Sherwood Markets,72,72,656,656,656,100.0,104112,3096,107856,46772,46772,57340,0,0,0
+20261103T073947Z-live-financial-news-5109d4b5,financial-news,finance-tradingview,TradingView News,72,72,6330,6330,6330,100.0,90867,5463,107856,11614,11614,79253,0,0,456
+20261103T073947Z-live-financial-news-5109d4b5,financial-news,finance-yahoo,Yahoo Finance,72,72,219,218,219,100.0,104334,205,107856,4722,4659,99675,0,0,476
+20261103T073947Z-live-general-commerce-7b139bb4,general-commerce,commerce-dsw,DSW,72,72,12301,306,12301,100.0,103721,70,104932,12301,12301,84079,0,7341,0
+20261103T073947Z-live-general-commerce-7b139bb4,general-commerce,commerce-fashion-nova,Fashion Nova,72,72,65387,4690,65387,100.0,107708,2,107928,65387,65387,42249,0,72,0
+20261103T073947Z-live-general-commerce-7b139bb4,general-commerce,commerce-gap,Gap,72,72,38851,1793,38851,100.0,84812,2,107928,38851,38851,44794,0,1167,0
+20261103T073947Z-live-general-commerce-7b139bb4,general-commerce,commerce-nike,Nike,72,72,42315,747,42315,100.0,107376,0,107928,42315,42315,62324,0,2737,0
+20261103T073947Z-live-general-commerce-7b139bb4,general-commerce,commerce-puma,PUMA,72,72,100000,1485,100000,100.0,106288,134,107928,144626,85439,20777,0,72,0
+20261103T073947Z-live-general-commerce-7b139bb4,general-commerce,commerce-quince,Quince,72,72,100000,1230,100000,100.0,99890,73,107928,109060,55517,44373,0,0,0
+20261103T073947Z-live-general-commerce-7b139bb4,general-commerce,commerce-spanx,Spanx,72,72,2016,28,2016,100.0,81251,507,107928,2016,2016,79235,0,0,0
+20261103T073947Z-live-general-commerce-7b139bb4,general-commerce,commerce-ulta-beauty,Ulta Beauty,72,72,15624,335,15624,100.0,107234,81,107928,15624,15624,91538,0,72,0
+20261103T073947Z-live-mexican-newspapers-893f8fd5,mexican-newspapers,mx-el-economista,El Economista,72,72,1890,1890,1890,100.0,107501,391,107856,84072,84072,22106,0,1323,72
+20261103T073947Z-live-mexican-newspapers-893f8fd5,mexican-newspapers,mx-el-financiero,El Financiero,72,72,3555,3555,3555,100.0,102434,543,107856,81363,81363,21071,0,0,0
+20261103T073947Z-live-mexican-newspapers-893f8fd5,mexican-newspapers,mx-el-heraldo,El Heraldo de México,72,72,413,413,413,100.0,10361,1716,11984,2781,2781,7580,0,0,0
+20261103T073947Z-live-mexican-newspapers-893f8fd5,mexican-newspapers,mx-el-horizonte,El Horizonte,72,72,2518,2518,2518,100.0,97029,959,107856,86861,86861,10168,0,0,0
+20261103T073947Z-live-mexican-newspapers-893f8fd5,mexican-newspapers,mx-el-imparcial,El Imparcial,72,72,2945,2945,2945,100.0,102638,13,107856,60754,60754,41884,0,0,0
+20261103T073947Z-live-mexican-newspapers-893f8fd5,mexican-newspapers,mx-el-informador,El Informador,72,72,3441,3441,3441,100.0,106591,531,107856,63543,63543,43048,0,0,0
+20261103T073947Z-live-mexican-newspapers-893f8fd5,mexican-newspapers,mx-el-manana-nuevo-laredo,El Mañana de Nuevo Laredo,72,72,439,439,439,100.0,10025,1112,11984,2908,2908,7117,0,0,8
+20261103T073947Z-live-mexican-newspapers-893f8fd5,mexican-newspapers,mx-el-porvenir,El Porvenir,72,72,1299,1299,1299,100.0,104025,72,107856,41807,41807,62218,0,0,0
+20261103T073947Z-live-mexican-newspapers-893f8fd5,mexican-newspapers,mx-excelsior,Excélsior,72,72,2005,2005,2005,100.0,107817,0,107856,82539,82539,24990,0,288,0
+20261103T073947Z-live-mexican-newspapers-893f8fd5,mexican-newspapers,mx-la-cronica,La Crónica de Hoy,72,72,934,934,934,100.0,35758,2016,42598,28099,28099,7659,0,0,0
+20261103T073947Z-live-mexican-newspapers-893f8fd5,mexican-newspapers,mx-la-opcion,La Opción de Chihuahua,72,72,1400,1400,1400,100.0,107054,72,107856,77456,77456,29598,0,0,0
+20261103T073947Z-live-mexican-newspapers-893f8fd5,mexican-newspapers,mx-la-razon,La Razón de México,72,72,3304,3304,3304,100.0,106140,78,107856,85596,85596,20544,0,0,0
+20261103T073947Z-live-mexican-newspapers-893f8fd5,mexican-newspapers,mx-la-silla-rota,La Silla Rota,72,72,544,544,544,100.0,10359,1085,11984,3739,3739,6620,0,0,8
+20261103T073947Z-live-mexican-newspapers-893f8fd5,mexican-newspapers,mx-noroeste,Noroeste,72,72,2387,2387,2387,100.0,107176,802,107856,60093,60093,47083,0,0,0
+20261103T073947Z-live-mexican-newspapers-893f8fd5,mexican-newspapers,mx-norte-digital,Norte Digital,72,72,281,281,281,100.0,98893,7594,107856,17857,17857,81036,0,0,0
+20261103T073947Z-live-mexican-newspapers-893f8fd5,mexican-newspapers,mx-proceso,Proceso,72,72,449,449,449,100.0,5870,1075,11984,1963,1963,3907,0,0,8
+20261103T073947Z-live-mexican-newspapers-893f8fd5,mexican-newspapers,mx-pulso-slp,Pulso de San Luis,72,72,2628,2628,2628,100.0,106594,144,107856,103214,103214,3380,0,0,0
+20261103T073947Z-live-mexican-newspapers-893f8fd5,mexican-newspapers,mx-raichali,Raíchali,72,72,1308,1308,1308,100.0,105839,1944,107856,92706,92706,13061,0,72,0
+20261103T073947Z-live-mexican-newspapers-893f8fd5,mexican-newspapers,mx-sdp-noticias,SDP Noticias,72,72,2837,2837,2837,100.0,105818,153,107856,84683,84683,21135,0,0,0
+20261103T073947Z-live-security-advisories-7d53cce9,security-advisories,security-apple,Apple Security Releases,72,72,616,616,616,100.0,31910,116,107856,21719,21719,9982,0,209,0
+20261103T073947Z-live-security-advisories-7d53cce9,security-advisories,security-chrome-releases,Chrome Releases,72,72,1155,1155,1155,100.0,99343,72,107856,82206,82206,17137,0,0,8473
+20261103T073947Z-live-security-advisories-7d53cce9,security-advisories,security-github,GitHub Security Advisories,72,72,45,45,45,100.0,90998,2174,107856,2016,2016,88912,0,70,0
+20261103T073947Z-live-security-advisories-7d53cce9,security-advisories,security-gitlab,GitLab Releases,72,72,4,4,4,100.0,97990,7562,107856,288,288,97702,0,0,0
+20261103T073947Z-live-security-advisories-7d53cce9,security-advisories,security-mozilla,Mozilla Security Advisories,72,72,1480,1480,1480,100.0,108000,0,107856,106488,106488,1512,0,0,0
+20261103T073947Z-live-security-advisories-7d53cce9,security-advisories,security-nodejs,Node.js Security Releases,72,72,48,48,48,100.0,95832,576,107856,3358,3358,92474,0,0,9360
+20261103T073947Z-live-security-advisories-7d53cce9,security-advisories,security-oracle,Oracle Security Alerts,72,72,31,31,31,100.0,41585,2089,107856,2232,2232,39281,0,72,288
+20261103T073947Z-live-security-advisories-7d53cce9,security-advisories,security-ubuntu,Ubuntu Security Notices,72,72,106,106,106,100.0,84006,660,107856,3514,3514,80286,0,206,294
+20261103T073947Z-live-us-newspapers-1c835a9b,us-newspapers,us-albuquerque-journal,Albuquerque Journal,72,72,1499,1499,1499,100.0,107640,0,107856,101160,101160,6480,0,0,0
+20261103T073947Z-live-us-newspapers-1c835a9b,us-newspapers,us-anchorage-daily-news,Anchorage Daily News,72,72,1338,1338,1338,100.0,86415,1424,107856,73594,73594,12821,0,0,0
+20261103T073947Z-live-us-newspapers-1c835a9b,us-newspapers,us-atlanta-journal-constitution,The Atlanta Journal-Constitution,72,72,2050,2045,2050,100.0,99044,274,107856,64815,64654,34172,0,218,37
+20261103T073947Z-live-us-newspapers-1c835a9b,us-newspapers,us-baltimore-sun,The Baltimore Sun,72,72,1711,1711,1711,100.0,105774,1189,107856,84855,84855,20919,0,0,0
+20261103T073947Z-live-us-newspapers-1c835a9b,us-newspapers,us-boston-globe,The Boston Globe,72,72,1316,1316,1316,100.0,93515,945,107856,43283,43283,50232,0,0,0
+20261103T073947Z-live-us-newspapers-1c835a9b,us-newspapers,us-boston-herald,Boston Herald,72,72,1635,1635,1635,100.0,107167,145,107856,93788,93788,13379,0,0,0
+20261103T073947Z-live-us-newspapers-1c835a9b,us-newspapers,us-chicago-tribune,Chicago Tribune,72,72,2197,2197,2197,100.0,100162,292,107856,53047,53047,47115,0,0,0
+20261103T073947Z-live-us-newspapers-1c835a9b,us-newspapers,us-dallas-morning-news,The Dallas Morning News,72,72,1019,1017,1019,100.0,106342,0,107856,60609,60579,45763,0,0,0
+20261103T073947Z-live-us-newspapers-1c835a9b,us-newspapers,us-denver-post,The Denver Post,72,72,1422,1422,1422,100.0,106891,177,107856,87719,87719,19172,0,0,0
+20261103T073947Z-live-us-newspapers-1c835a9b,us-newspapers,us-houston-chronicle,Houston Chronicle,72,72,1735,1730,1735,100.0,100576,675,107856,73704,73579,26997,0,0,19
+20261103T073947Z-live-us-newspapers-1c835a9b,us-newspapers,us-los-angeles-times,Los Angeles Times,72,72,1519,1519,1519,100.0,106272,0,107856,70225,70225,36047,0,0,0
+20261103T073947Z-live-us-newspapers-1c835a9b,us-newspapers,us-newsday,Newsday,72,72,2761,2761,2761,100.0,103842,1752,107856,78194,78194,24791,0,857,0
+20261103T073947Z-live-us-newspapers-1c835a9b,us-newspapers,us-nola,NOLA.com,72,72,1485,1485,1485,100.0,92479,406,107856,84355,84355,8124,0,0,6516
+20261103T073947Z-live-us-newspapers-1c835a9b,us-newspapers,us-orange-county-register,Orange County Register,72,72,1652,1652,1652,100.0,107276,0,107856,89985,89985,17291,0,0,0
+20261103T073947Z-live-us-newspapers-1c835a9b,us-newspapers,us-philadelphia-inquirer,The Philadelphia Inquirer,72,72,2639,2639,2639,100.0,90625,46,107856,71102,71102,19523,0,0,124
+20261103T073947Z-live-us-newspapers-1c835a9b,us-newspapers,us-salt-lake-tribune,The Salt Lake Tribune,72,72,1839,1839,1839,100.0,90201,1587,107856,77594,77594,12607,0,0,0
+20261103T073947Z-live-us-newspapers-1c835a9b,us-newspapers,us-san-diego-union-tribune,San Diego Union-Tribune,72,72,1624,1624,1624,100.0,107319,28,107856,92834,92834,14485,0,0,0
+20261103T073947Z-live-us-newspapers-1c835a9b,us-newspapers,us-san-francisco-chronicle,San Francisco Chronicle,72,72,1423,1416,1423,100.0,96470,604,107856,69447,69134,27264,0,72,72
+20261103T073947Z-live-us-newspapers-1c835a9b,us-newspapers,us-seattle-times,The Seattle Times,72,72,929,929,929,100.0,96431,1860,107856,43093,43093,53338,0,0,0
+20261103T073947Z-live-us-newspapers-1c835a9b,us-newspapers,us-tampa-bay-times,Tampa Bay Times,72,72,1314,1314,1314,100.0,95979,15,107856,81319,81319,14660,0,0,0

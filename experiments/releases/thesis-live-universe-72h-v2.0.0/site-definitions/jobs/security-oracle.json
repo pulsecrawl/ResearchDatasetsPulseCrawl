@@ -1,0 +1,234 @@
+{
+  "createdAt": "2026-11-03T07:40:00.095672+00:00",
+  "datasetId": "ds_301332f87a091acff1bc",
+  "jobId": "job_b94bee43ca7cc63f0540",
+  "maxDurationSeconds": null,
+  "name": "security-advisories: Oracle Security Alerts",
+  "politeness": {
+    "organizationRequestsPerSecond": 1.0,
+    "requestsPerSecond": 1.0,
+    "respectRobotsTxt": true,
+    "userAgent": "PulseCrawlResearchBot/0.1 (+https://github.com/pulsecrawl/research-datasets)"
+  },
+  "schema": {
+    "fields": [
+      {
+        "fieldId": "advisory_id",
+        "name": "advisory_id",
+        "type": "string"
+      },
+      {
+        "fieldId": "title",
+        "name": "title",
+        "type": "string"
+      },
+      {
+        "fieldId": "vendor",
+        "name": "vendor",
+        "type": "string"
+      },
+      {
+        "fieldId": "published_at",
+        "name": "published_at",
+        "type": "datetime"
+      },
+      {
+        "fieldId": "updated_at",
+        "name": "updated_at",
+        "type": "datetime"
+      },
+      {
+        "fieldId": "severity",
+        "name": "severity",
+        "type": "string"
+      },
+      {
+        "fieldId": "summary",
+        "name": "summary",
+        "type": "string"
+      },
+      {
+        "fieldId": "canonical_url",
+        "name": "canonical_url",
+        "type": "url"
+      }
+    ],
+    "schemaId": "schema_53f4ec2a709d5f7776fa"
+  },
+  "scope": {
+    "excludePatterns": [],
+    "includePatterns": [],
+    "maxDepth": 5,
+    "maxUrlsPerExecution": 1500,
+    "maxUrlsTotal": 108000,
+    "sameDomainOnly": true
+  },
+  "seeds": [
+    "https://www.oracle.com/security-alerts/",
+    "https://www.oracle.com/security-alerts/alert-cve-2026-109618.html"
+  ],
+  "storeRawPages": false,
+  "systemTemplates": [],
+  "templates": [
+    {
+      "engine": "jsonld",
+      "mappings": {
+        "advisory_id": [
+          "TechArticle.identifier",
+          "Article.identifier"
+        ],
+        "canonical_url": [
+          "TechArticle.url",
+          "Article.url"
+        ],
+        "published_at": [
+          "TechArticle.datePublished",
+          "Article.datePublished"
+        ],
+        "summary": [
+          "TechArticle.description",
+          "Article.description"
+        ],
+        "title": [
+          "TechArticle.headline",
+          "Article.headline",
+          "TechArticle.name",
+          "Article.name"
+        ],
+        "updated_at": [
+          "TechArticle.dateModified",
+          "Article.dateModified"
+        ],
+        "vendor": [
+          "literal:Oracle Security Alerts"
+        ]
+      },
+      "origin": "org",
+      "pageRole": "record",
+      "requiredFields": [
+        "title",
+        "canonical_url"
+      ],
+      "scope": {
+        "hosts": [
+          "www.oracle.com"
+        ],
+        "urlPatterns": [
+          "https://www.oracle.com/security-alerts/alert-*.html*"
+        ]
+      },
+      "templateId": "security-oracle-advisory-jsonld"
+    },
+    {
+      "engine": "css",
+      "mappings": {
+        "canonical_url": [
+          "link[rel='canonical']@href"
+        ],
+        "title": [
+          "title",
+          "main h1",
+          "h1"
+        ],
+        "vendor": [
+          "literal:Oracle Security Alerts"
+        ]
+      },
+      "origin": "org",
+      "pageRole": "record",
+      "requiredFields": [
+        "title",
+        "canonical_url"
+      ],
+      "scope": {
+        "hosts": [
+          "www.oracle.com"
+        ],
+        "urlPatterns": [
+          "https://www.oracle.com/security-alerts/alert-*.html*"
+        ]
+      },
+      "templateId": "security-oracle-advisory-css"
+    },
+    {
+      "engine": "meta",
+      "mappings": {
+        "canonical_url": [
+          "og:url"
+        ],
+        "published_at": [
+          "article:published_time",
+          "date"
+        ],
+        "summary": [
+          "og:description",
+          "description"
+        ],
+        "title": [
+          "og:title",
+          "twitter:title",
+          "<title>"
+        ],
+        "updated_at": [
+          "article:modified_time",
+          "og:updated_time"
+        ],
+        "vendor": [
+          "literal:Oracle Security Alerts"
+        ]
+      },
+      "origin": "org",
+      "pageRole": "record",
+      "requiredFields": [
+        "title",
+        "canonical_url"
+      ],
+      "scope": {
+        "hosts": [
+          "www.oracle.com"
+        ],
+        "urlPatterns": [
+          "https://www.oracle.com/security-alerts/alert-*.html*"
+        ]
+      },
+      "templateId": "security-oracle-advisory-meta"
+    },
+    {
+      "engine": "meta",
+      "mappings": {
+        "title": [
+          "<title>",
+          "og:title"
+        ]
+      },
+      "origin": "org",
+      "pageRole": "navigation",
+      "scope": {
+        "hosts": [
+          "www.oracle.com"
+        ],
+        "urlPatterns": [
+          "https://www.oracle.com/security-alerts/"
+        ]
+      },
+      "templateId": "security-oracle-advisory-known-navigation"
+    },
+    {
+      "engine": "meta",
+      "mappings": {
+        "title": [
+          "<title>",
+          "og:title"
+        ]
+      },
+      "origin": "org",
+      "pageRole": "navigation",
+      "scope": {
+        "hosts": [
+          "www.oracle.com"
+        ]
+      },
+      "templateId": "security-oracle-advisory-navigation"
+    }
+  ]
+}

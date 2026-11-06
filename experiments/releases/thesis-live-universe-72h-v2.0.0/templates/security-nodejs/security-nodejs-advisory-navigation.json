@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "title": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "security-nodejs-advisory-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_ecd74d55d4ef2673097e",
+  "pageRole": "navigation",
+  "templateId": "security-nodejs-advisory-navigation"
+}

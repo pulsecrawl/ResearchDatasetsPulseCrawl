@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "headline": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "mx-el-financiero-article-known-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_1c771d8ec6859ce2a16e",
+  "pageRole": "navigation",
+  "templateId": "mx-el-financiero-article-known-navigation"
+}

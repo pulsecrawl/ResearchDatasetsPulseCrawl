@@ -1,0 +1,25 @@
+{
+  "engine": "css",
+  "mappings": {
+    "canonical_url": [
+      "link[rel='canonical']@href"
+    ],
+    "title": [
+      "main h1",
+      "article h1",
+      "h1"
+    ],
+    "vendor": [
+      "literal:Mozilla Security Advisories"
+    ]
+  },
+  "name": "security-mozilla-advisory-css",
+  "origin": "org",
+  "outputSchemaId": "schema_23cdcbc4b5391ae9b166",
+  "pageRole": "record",
+  "requiredFields": [
+    "title",
+    "canonical_url"
+  ],
+  "templateId": "security-mozilla-advisory-css"
+}

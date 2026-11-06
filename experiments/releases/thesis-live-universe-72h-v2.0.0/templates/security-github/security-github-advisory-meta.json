@@ -1,0 +1,37 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "canonical_url": [
+      "og:url"
+    ],
+    "published_at": [
+      "article:published_time",
+      "date"
+    ],
+    "summary": [
+      "og:description",
+      "description"
+    ],
+    "title": [
+      "og:title",
+      "twitter:title",
+      "<title>"
+    ],
+    "updated_at": [
+      "article:modified_time",
+      "og:updated_time"
+    ],
+    "vendor": [
+      "literal:GitHub Security Advisories"
+    ]
+  },
+  "name": "security-github-advisory-meta",
+  "origin": "org",
+  "outputSchemaId": "schema_9a551763994b72f4082d",
+  "pageRole": "record",
+  "requiredFields": [
+    "title",
+    "canonical_url"
+  ],
+  "templateId": "security-github-advisory-meta"
+}

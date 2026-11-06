@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "headline": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "mx-el-imparcial-article-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_adcc4cdcdbc2d519804c",
+  "pageRole": "navigation",
+  "templateId": "mx-el-imparcial-article-navigation"
+}

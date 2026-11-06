@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "headline": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "us-dallas-morning-news-article-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_7e7dbabb438fb941fb82",
+  "pageRole": "navigation",
+  "templateId": "us-dallas-morning-news-article-navigation"
+}

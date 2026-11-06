@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "name": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "commerce-nike-product-known-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_fb7f0b69cb06b9e52de8",
+  "pageRole": "navigation",
+  "templateId": "commerce-nike-product-known-navigation"
+}

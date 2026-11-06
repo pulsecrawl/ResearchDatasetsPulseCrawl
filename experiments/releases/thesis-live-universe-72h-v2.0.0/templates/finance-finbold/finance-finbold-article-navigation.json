@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "headline": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "finance-finbold-article-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_9a464fe33f603d8436ea",
+  "pageRole": "navigation",
+  "templateId": "finance-finbold-article-navigation"
+}

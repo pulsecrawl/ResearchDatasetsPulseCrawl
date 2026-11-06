@@ -1,0 +1,43 @@
+{
+  "engine": "jsonld",
+  "mappings": {
+    "advisory_id": [
+      "TechArticle.identifier",
+      "Article.identifier"
+    ],
+    "canonical_url": [
+      "TechArticle.url",
+      "Article.url"
+    ],
+    "published_at": [
+      "TechArticle.datePublished",
+      "Article.datePublished"
+    ],
+    "summary": [
+      "TechArticle.description",
+      "Article.description"
+    ],
+    "title": [
+      "TechArticle.headline",
+      "Article.headline",
+      "TechArticle.name",
+      "Article.name"
+    ],
+    "updated_at": [
+      "TechArticle.dateModified",
+      "Article.dateModified"
+    ],
+    "vendor": [
+      "literal:Chrome Releases"
+    ]
+  },
+  "name": "security-chrome-releases-advisory-jsonld",
+  "origin": "org",
+  "outputSchemaId": "schema_158db1e57c7a8bd849a0",
+  "pageRole": "record",
+  "requiredFields": [
+    "title",
+    "canonical_url"
+  ],
+  "templateId": "security-chrome-releases-advisory-jsonld"
+}

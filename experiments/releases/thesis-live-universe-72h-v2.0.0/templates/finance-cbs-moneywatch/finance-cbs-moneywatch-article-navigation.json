@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "headline": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "finance-cbs-moneywatch-article-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_bc63344d12ea33954768",
+  "pageRole": "navigation",
+  "templateId": "finance-cbs-moneywatch-article-navigation"
+}

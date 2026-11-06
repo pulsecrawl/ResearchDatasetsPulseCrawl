@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "headline": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "finance-kiplinger-article-known-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_8f07867be5fc9f756794",
+  "pageRole": "navigation",
+  "templateId": "finance-kiplinger-article-known-navigation"
+}

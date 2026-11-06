@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "headline": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "finance-sherwood-article-known-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_dc49a44c30ee1c5e1bc7",
+  "pageRole": "navigation",
+  "templateId": "finance-sherwood-article-known-navigation"
+}

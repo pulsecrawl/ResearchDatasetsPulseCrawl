@@ -62,11 +62,11 @@ ResearchDatasetsPulseCrawl/
 │   │   ├── catalog.json            five live categories and source counts
 │   │   └── <category>/
 │   │       ├── README.md           category purpose and schedule
-│   │       ├── experiment.yaml     current two-hour protocol
+│   │       ├── experiment.yaml     registered category protocol
 │   │       ├── input/sites.json    exact reviewed URLs and limits
 │   │       └── runs/               published bounded-run evidence
 │   └── releases/
-│       └── <release>/              analysis, evidence index, and checksums
+│       └── <release>/              analysis, evidence index, checksums, asset map
 │
 ├── runners/
 │   ├── pulsecrawl/                 PulseCrawl controlled runner
@@ -129,37 +129,51 @@ not presented as real website observations. Reviewed controlled evidence is
 organized by descriptive experiment name under
 [`experiments/controlled/`](experiments/controlled/).
 
-## Live study
+## Completed 72-hour live study
 
 The thesis live-study universe contains 75 websites in five categories:
 
 | Category | Websites | Output schema | Executions per website |
 |---|---:|---|---:|
-| Mexican newspapers | 19 | Article | 4 |
-| United States newspapers | 20 | Article | 4 |
-| Financial and stock news | 20 | Article | 4 |
-| General commerce | 8 | Product | 4 |
-| Security advisories | 8 | Security advisory | 4 |
-| **Total** | **75** |  | **300 site executions** |
+| Mexican newspapers | 19 | Article | 72 |
+| United States newspapers | 20 | Article | 72 |
+| Financial and stock news | 20 | Article | 72 |
+| General commerce | 8 | Product | 72 |
+| Security advisories | 8 | Security advisory | 72 |
+| **Total** | **75** |  | **5,400 site executions** |
 
-The two-hour study used actual raw HTTP requests and the public PulseCrawl
-0.4.0 package. Every website was scheduled four times at 30-minute intervals.
-Each execution allowed up to 1,500 URLs, crawl depth five, and 1,680 seconds,
-while respecting the longer of the applicable robots delay or a 0.5-second
-same-origin interval.
+The completed three-day study used actual HTTP requests and the public,
+index-installed PulseCrawl 0.4.0 package. Every website received exactly 72
+hourly scheduled occurrences. Each occurrence allowed up to 1,500 URL
+attempts, crawl depth five, and 3,300 seconds, while respecting the longer of
+the applicable robots delay or a one-second same-origin interval.
 
-All 300 site executions succeeded. The release contains 374,395 fetched pages,
-68,367 published rows, and 53,381 unique target-record URLs. Start with the
+All 5,400 site executions succeeded with zero missed occurrences. The release
+records 6,971,063 fetched pages, 78,668 failed requests, 28,437 robots-blocked
+decisions, and 466,141 exported rows. Start with the
+[`thesis-live-universe-72h-v2.0.0` release](experiments/releases/thesis-live-universe-72h-v2.0.0/)
+for exact configurations, all 75 jobs, 316 templates, 707 field definitions,
+site/execution summaries, limitations, provenance, and the complete 14,215-file
+inventory.
+
+The corresponding GitHub release provides the full public evidence mirror as
+seven compressed archives: all category workspaces, scheduler state, logs,
+SQLite state, input/job/template definitions, CSV and Parquet outputs, and
+analysis artifacts. The archives reconstruct 9.95 GB and are about 1.04 GB to
+download. Apple remains in the registered 75-site universe; its documented
+template-scope limitation is reported without removing or rewriting its
+observations.
+
+The earlier
 [`thesis-live-universe-v1.0.0` release](experiments/releases/thesis-live-universe-v1.0.0/)
-for category totals, website-level measurements, and matching CSV/Parquet
-evidence.
+remains available as the historical two-hour, four-occurrence study.
 
 ## Dataset and publication boundary
 
 - Third-party HTML bodies are processed in memory and are not published.
 - Published live evidence may contain source URLs, HTTP status, response
-  checksums, extracted records, local workspace validation, Parquet parts, and
-  dataset-version manifests.
+  checksums, extracted records, reviewed logs, SQLite workspace state, Parquet
+  parts, scheduler state, and dataset-version manifests.
 - Every controlled run includes `measurements.csv`, a reviewer-readable view of
   its authoritative JSON measurements. Dataset-producing controlled runs also
   include checksum-linked Parquet evidence and a matching complete or bounded
@@ -169,8 +183,8 @@ evidence.
   classifications and records.
 - No credentials, browser profiles, workstation paths, or private author
   metadata are permitted in a release.
-- Every published run has a checksum file. Every release has a separate
-  release manifest; releases are never overwritten.
+- Every published run has a checksum file. Every release has separate source,
+  published-file, and asset checksum manifests; releases are never overwritten.
 
 See [`PRIVACY.md`](PRIVACY.md) for the complete boundary.
 

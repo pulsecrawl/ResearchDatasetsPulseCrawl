@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "name": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "commerce-gap-product-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_d48fbd886e722ca23e25",
+  "pageRole": "navigation",
+  "templateId": "commerce-gap-product-navigation"
+}

@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "headline": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "us-san-diego-union-tribune-article-known-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_a38391525f82fa6dd2bb",
+  "pageRole": "navigation",
+  "templateId": "us-san-diego-union-tribune-article-known-navigation"
+}

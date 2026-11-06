@@ -1,0 +1,234 @@
+{
+  "createdAt": "2026-11-03T07:40:17.101696+00:00",
+  "datasetId": "ds_90a577240d9fbb447b83",
+  "jobId": "job_73d001e0e0939437f9b4",
+  "maxDurationSeconds": null,
+  "name": "mexican-newspapers: La Opci\u00f3n de Chihuahua",
+  "politeness": {
+    "organizationRequestsPerSecond": 1.0,
+    "requestsPerSecond": 1.0,
+    "respectRobotsTxt": true,
+    "userAgent": "PulseCrawlResearchBot/0.1 (+https://github.com/pulsecrawl/research-datasets)"
+  },
+  "schema": {
+    "fields": [
+      {
+        "fieldId": "headline",
+        "name": "headline",
+        "type": "string"
+      },
+      {
+        "fieldId": "canonical_url",
+        "name": "canonical_url",
+        "type": "url"
+      },
+      {
+        "fieldId": "description",
+        "name": "description",
+        "type": "string"
+      },
+      {
+        "fieldId": "author",
+        "name": "author",
+        "type": "string"
+      },
+      {
+        "fieldId": "published_at",
+        "name": "published_at",
+        "type": "datetime"
+      },
+      {
+        "fieldId": "modified_at",
+        "name": "modified_at",
+        "type": "datetime"
+      },
+      {
+        "fieldId": "image_url",
+        "name": "image_url",
+        "type": "url"
+      },
+      {
+        "fieldId": "section",
+        "name": "section",
+        "type": "string"
+      },
+      {
+        "fieldId": "source_name",
+        "name": "source_name",
+        "type": "string"
+      }
+    ],
+    "schemaId": "schema_ff2b5347ef8caf7699ce"
+  },
+  "scope": {
+    "excludePatterns": [],
+    "includePatterns": [],
+    "maxDepth": 5,
+    "maxUrlsPerExecution": 1500,
+    "maxUrlsTotal": 108000,
+    "sameDomainOnly": true
+  },
+  "seeds": [
+    "https://laopcion.com.mx/",
+    "https://laopcion.com.mx/delicias/promueve-meoqui-vacunacion-contra-la-polio-y-ofrece-orientacion-en-seis-centros-de-salud-20261024-530770.html"
+  ],
+  "storeRawPages": false,
+  "systemTemplates": [],
+  "templates": [
+    {
+      "engine": "jsonld",
+      "mappings": {
+        "author": [
+          "NewsArticle.author.name",
+          "Article.author.name",
+          "NewsArticle.author",
+          "Article.author"
+        ],
+        "canonical_url": [
+          "NewsArticle.url",
+          "Article.url",
+          "NewsArticle.mainEntityOfPage.@id",
+          "Article.mainEntityOfPage.@id"
+        ],
+        "description": [
+          "NewsArticle.description",
+          "Article.description"
+        ],
+        "headline": [
+          "NewsArticle.headline",
+          "Article.headline",
+          "NewsArticle.name",
+          "Article.name"
+        ],
+        "image_url": [
+          "NewsArticle.image.url",
+          "Article.image.url",
+          "NewsArticle.image",
+          "Article.image"
+        ],
+        "modified_at": [
+          "NewsArticle.dateModified",
+          "Article.dateModified"
+        ],
+        "published_at": [
+          "NewsArticle.datePublished",
+          "Article.datePublished"
+        ],
+        "section": [
+          "NewsArticle.articleSection",
+          "Article.articleSection"
+        ],
+        "source_name": [
+          "literal:La Opci\u00f3n de Chihuahua"
+        ]
+      },
+      "origin": "org",
+      "pageRole": "record",
+      "requiredFields": [
+        "headline",
+        "canonical_url"
+      ],
+      "scope": {
+        "hosts": [
+          "laopcion.com.mx"
+        ],
+        "urlPatterns": [
+          "https://laopcion.com.mx/*/*-????????-*.html*"
+        ]
+      },
+      "templateId": "mx-la-opcion-article-jsonld"
+    },
+    {
+      "engine": "meta",
+      "mappings": {
+        "author": [
+          "article:author",
+          "author"
+        ],
+        "canonical_url": [
+          "og:url"
+        ],
+        "description": [
+          "og:description",
+          "description"
+        ],
+        "headline": [
+          "og:title",
+          "twitter:title",
+          "<title>"
+        ],
+        "image_url": [
+          "og:image",
+          "twitter:image"
+        ],
+        "modified_at": [
+          "article:modified_time",
+          "og:updated_time"
+        ],
+        "published_at": [
+          "article:published_time",
+          "date"
+        ],
+        "section": [
+          "article:section"
+        ],
+        "source_name": [
+          "literal:La Opci\u00f3n de Chihuahua"
+        ]
+      },
+      "origin": "org",
+      "pageRole": "record",
+      "requiredFields": [
+        "headline",
+        "published_at",
+        "canonical_url"
+      ],
+      "scope": {
+        "hosts": [
+          "laopcion.com.mx"
+        ],
+        "urlPatterns": [
+          "https://laopcion.com.mx/*/*-????????-*.html*"
+        ]
+      },
+      "templateId": "mx-la-opcion-article-meta"
+    },
+    {
+      "engine": "meta",
+      "mappings": {
+        "headline": [
+          "<title>",
+          "og:title"
+        ]
+      },
+      "origin": "org",
+      "pageRole": "navigation",
+      "scope": {
+        "hosts": [
+          "laopcion.com.mx"
+        ],
+        "urlPatterns": [
+          "https://laopcion.com.mx/"
+        ]
+      },
+      "templateId": "mx-la-opcion-article-known-navigation"
+    },
+    {
+      "engine": "meta",
+      "mappings": {
+        "headline": [
+          "<title>",
+          "og:title"
+        ]
+      },
+      "origin": "org",
+      "pageRole": "navigation",
+      "scope": {
+        "hosts": [
+          "laopcion.com.mx"
+        ]
+      },
+      "templateId": "mx-la-opcion-article-navigation"
+    }
+  ]
+}

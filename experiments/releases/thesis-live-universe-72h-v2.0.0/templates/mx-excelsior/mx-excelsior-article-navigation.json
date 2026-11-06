@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "headline": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "mx-excelsior-article-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_7f337f63dcfc707816ee",
+  "pageRole": "navigation",
+  "templateId": "mx-excelsior-article-navigation"
+}

@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "headline": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "us-atlanta-journal-constitution-article-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_44c34ea6d69a3341f63a",
+  "pageRole": "navigation",
+  "templateId": "us-atlanta-journal-constitution-article-navigation"
+}

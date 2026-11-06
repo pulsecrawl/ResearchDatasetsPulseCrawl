@@ -1,0 +1,37 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "canonical_url": [
+      "og:url"
+    ],
+    "published_at": [
+      "article:published_time",
+      "date"
+    ],
+    "summary": [
+      "og:description",
+      "description"
+    ],
+    "title": [
+      "og:title",
+      "twitter:title",
+      "<title>"
+    ],
+    "updated_at": [
+      "article:modified_time",
+      "og:updated_time"
+    ],
+    "vendor": [
+      "literal:Apple Security Releases"
+    ]
+  },
+  "name": "security-apple-advisory-meta",
+  "origin": "org",
+  "outputSchemaId": "schema_dd4d89f457dd27e18d2c",
+  "pageRole": "record",
+  "requiredFields": [
+    "title",
+    "canonical_url"
+  ],
+  "templateId": "security-apple-advisory-meta"
+}

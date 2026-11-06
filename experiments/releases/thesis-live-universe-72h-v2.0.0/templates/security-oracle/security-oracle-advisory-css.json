@@ -1,0 +1,25 @@
+{
+  "engine": "css",
+  "mappings": {
+    "canonical_url": [
+      "link[rel='canonical']@href"
+    ],
+    "title": [
+      "title",
+      "main h1",
+      "h1"
+    ],
+    "vendor": [
+      "literal:Oracle Security Alerts"
+    ]
+  },
+  "name": "security-oracle-advisory-css",
+  "origin": "org",
+  "outputSchemaId": "schema_53f4ec2a709d5f7776fa",
+  "pageRole": "record",
+  "requiredFields": [
+    "title",
+    "canonical_url"
+  ],
+  "templateId": "security-oracle-advisory-css"
+}

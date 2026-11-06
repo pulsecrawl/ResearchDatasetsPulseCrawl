@@ -1,0 +1,234 @@
+{
+  "createdAt": "2026-11-03T07:39:59.329918+00:00",
+  "datasetId": "ds_bbe66759baf70783c06c",
+  "jobId": "job_dccefb688336e4f50cb6",
+  "maxDurationSeconds": null,
+  "name": "security-advisories: Apple Security Releases",
+  "politeness": {
+    "organizationRequestsPerSecond": 1.0,
+    "requestsPerSecond": 1.0,
+    "respectRobotsTxt": true,
+    "userAgent": "PulseCrawlResearchBot/0.1 (+https://github.com/pulsecrawl/research-datasets)"
+  },
+  "schema": {
+    "fields": [
+      {
+        "fieldId": "advisory_id",
+        "name": "advisory_id",
+        "type": "string"
+      },
+      {
+        "fieldId": "title",
+        "name": "title",
+        "type": "string"
+      },
+      {
+        "fieldId": "vendor",
+        "name": "vendor",
+        "type": "string"
+      },
+      {
+        "fieldId": "published_at",
+        "name": "published_at",
+        "type": "datetime"
+      },
+      {
+        "fieldId": "updated_at",
+        "name": "updated_at",
+        "type": "datetime"
+      },
+      {
+        "fieldId": "severity",
+        "name": "severity",
+        "type": "string"
+      },
+      {
+        "fieldId": "summary",
+        "name": "summary",
+        "type": "string"
+      },
+      {
+        "fieldId": "canonical_url",
+        "name": "canonical_url",
+        "type": "url"
+      }
+    ],
+    "schemaId": "schema_dd4d89f457dd27e18d2c"
+  },
+  "scope": {
+    "excludePatterns": [],
+    "includePatterns": [],
+    "maxDepth": 5,
+    "maxUrlsPerExecution": 1500,
+    "maxUrlsTotal": 108000,
+    "sameDomainOnly": true
+  },
+  "seeds": [
+    "https://support.apple.com/en-us/100100",
+    "https://support.apple.com/en-us/102657"
+  ],
+  "storeRawPages": false,
+  "systemTemplates": [],
+  "templates": [
+    {
+      "engine": "jsonld",
+      "mappings": {
+        "advisory_id": [
+          "TechArticle.identifier",
+          "Article.identifier"
+        ],
+        "canonical_url": [
+          "TechArticle.url",
+          "Article.url"
+        ],
+        "published_at": [
+          "TechArticle.datePublished",
+          "Article.datePublished"
+        ],
+        "summary": [
+          "TechArticle.description",
+          "Article.description"
+        ],
+        "title": [
+          "TechArticle.headline",
+          "Article.headline",
+          "TechArticle.name",
+          "Article.name"
+        ],
+        "updated_at": [
+          "TechArticle.dateModified",
+          "Article.dateModified"
+        ],
+        "vendor": [
+          "literal:Apple Security Releases"
+        ]
+      },
+      "origin": "org",
+      "pageRole": "record",
+      "requiredFields": [
+        "title",
+        "canonical_url"
+      ],
+      "scope": {
+        "hosts": [
+          "support.apple.com"
+        ],
+        "urlPatterns": [
+          "https://support.apple.com/*/[0-9]*"
+        ]
+      },
+      "templateId": "security-apple-advisory-jsonld"
+    },
+    {
+      "engine": "css",
+      "mappings": {
+        "canonical_url": [
+          "link[rel='canonical']@href"
+        ],
+        "title": [
+          "main h1",
+          "article h1",
+          "h1"
+        ],
+        "vendor": [
+          "literal:Apple Security Releases"
+        ]
+      },
+      "origin": "org",
+      "pageRole": "record",
+      "requiredFields": [
+        "title",
+        "canonical_url"
+      ],
+      "scope": {
+        "hosts": [
+          "support.apple.com"
+        ],
+        "urlPatterns": [
+          "https://support.apple.com/*/[0-9]*"
+        ]
+      },
+      "templateId": "security-apple-advisory-css"
+    },
+    {
+      "engine": "meta",
+      "mappings": {
+        "canonical_url": [
+          "og:url"
+        ],
+        "published_at": [
+          "article:published_time",
+          "date"
+        ],
+        "summary": [
+          "og:description",
+          "description"
+        ],
+        "title": [
+          "og:title",
+          "twitter:title",
+          "<title>"
+        ],
+        "updated_at": [
+          "article:modified_time",
+          "og:updated_time"
+        ],
+        "vendor": [
+          "literal:Apple Security Releases"
+        ]
+      },
+      "origin": "org",
+      "pageRole": "record",
+      "requiredFields": [
+        "title",
+        "canonical_url"
+      ],
+      "scope": {
+        "hosts": [
+          "support.apple.com"
+        ],
+        "urlPatterns": [
+          "https://support.apple.com/*/[0-9]*"
+        ]
+      },
+      "templateId": "security-apple-advisory-meta"
+    },
+    {
+      "engine": "meta",
+      "mappings": {
+        "title": [
+          "<title>",
+          "og:title"
+        ]
+      },
+      "origin": "org",
+      "pageRole": "navigation",
+      "scope": {
+        "hosts": [
+          "support.apple.com"
+        ],
+        "urlPatterns": [
+          "https://support.apple.com/en-us/100100"
+        ]
+      },
+      "templateId": "security-apple-advisory-known-navigation"
+    },
+    {
+      "engine": "meta",
+      "mappings": {
+        "title": [
+          "<title>",
+          "og:title"
+        ]
+      },
+      "origin": "org",
+      "pageRole": "navigation",
+      "scope": {
+        "hosts": [
+          "support.apple.com"
+        ]
+      },
+      "templateId": "security-apple-advisory-navigation"
+    }
+  ]
+}

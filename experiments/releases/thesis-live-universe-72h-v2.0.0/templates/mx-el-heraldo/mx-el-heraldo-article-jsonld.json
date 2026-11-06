@@ -1,0 +1,57 @@
+{
+  "engine": "jsonld",
+  "mappings": {
+    "author": [
+      "NewsArticle.author.name",
+      "Article.author.name",
+      "NewsArticle.author",
+      "Article.author"
+    ],
+    "canonical_url": [
+      "NewsArticle.url",
+      "Article.url",
+      "NewsArticle.mainEntityOfPage.@id",
+      "Article.mainEntityOfPage.@id"
+    ],
+    "description": [
+      "NewsArticle.description",
+      "Article.description"
+    ],
+    "headline": [
+      "NewsArticle.headline",
+      "Article.headline",
+      "NewsArticle.name",
+      "Article.name"
+    ],
+    "image_url": [
+      "NewsArticle.image.url",
+      "Article.image.url",
+      "NewsArticle.image",
+      "Article.image"
+    ],
+    "modified_at": [
+      "NewsArticle.dateModified",
+      "Article.dateModified"
+    ],
+    "published_at": [
+      "NewsArticle.datePublished",
+      "Article.datePublished"
+    ],
+    "section": [
+      "NewsArticle.articleSection",
+      "Article.articleSection"
+    ],
+    "source_name": [
+      "literal:El Heraldo de M\u00e9xico"
+    ]
+  },
+  "name": "mx-el-heraldo-article-jsonld",
+  "origin": "org",
+  "outputSchemaId": "schema_172feba2ab6225443af8",
+  "pageRole": "record",
+  "requiredFields": [
+    "headline",
+    "canonical_url"
+  ],
+  "templateId": "mx-el-heraldo-article-jsonld"
+}

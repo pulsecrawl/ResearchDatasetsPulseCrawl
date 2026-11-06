@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "headline": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "mx-el-manana-nuevo-laredo-article-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_86763a95ca19a2e2d189",
+  "pageRole": "navigation",
+  "templateId": "mx-el-manana-nuevo-laredo-article-navigation"
+}

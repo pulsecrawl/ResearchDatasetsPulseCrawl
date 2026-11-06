@@ -1,0 +1,43 @@
+{
+  "engine": "jsonld",
+  "mappings": {
+    "advisory_id": [
+      "TechArticle.identifier",
+      "Article.identifier"
+    ],
+    "canonical_url": [
+      "TechArticle.url",
+      "Article.url"
+    ],
+    "published_at": [
+      "TechArticle.datePublished",
+      "Article.datePublished"
+    ],
+    "summary": [
+      "TechArticle.description",
+      "Article.description"
+    ],
+    "title": [
+      "TechArticle.headline",
+      "Article.headline",
+      "TechArticle.name",
+      "Article.name"
+    ],
+    "updated_at": [
+      "TechArticle.dateModified",
+      "Article.dateModified"
+    ],
+    "vendor": [
+      "literal:Apple Security Releases"
+    ]
+  },
+  "name": "security-apple-advisory-jsonld",
+  "origin": "org",
+  "outputSchemaId": "schema_dd4d89f457dd27e18d2c",
+  "pageRole": "record",
+  "requiredFields": [
+    "title",
+    "canonical_url"
+  ],
+  "templateId": "security-apple-advisory-jsonld"
+}

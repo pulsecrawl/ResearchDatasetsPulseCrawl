@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "headline": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "us-nola-article-known-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_1290dc0d66bf0fac81ba",
+  "pageRole": "navigation",
+  "templateId": "us-nola-article-known-navigation"
+}

@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "headline": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "us-san-francisco-chronicle-article-known-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_0304d81a1a636ae9b619",
+  "pageRole": "navigation",
+  "templateId": "us-san-francisco-chronicle-article-known-navigation"
+}

@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "headline": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "us-orange-county-register-article-known-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_25f5131e89a40eb7ca63",
+  "pageRole": "navigation",
+  "templateId": "us-orange-county-register-article-known-navigation"
+}

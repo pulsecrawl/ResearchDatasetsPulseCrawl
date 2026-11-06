@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "headline": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "mx-pulso-slp-article-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_8ec5a365556f5fd2bce1",
+  "pageRole": "navigation",
+  "templateId": "mx-pulso-slp-article-navigation"
+}

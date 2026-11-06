@@ -1,0 +1,49 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "author": [
+      "article:author",
+      "author"
+    ],
+    "canonical_url": [
+      "og:url"
+    ],
+    "description": [
+      "og:description",
+      "description"
+    ],
+    "headline": [
+      "og:title",
+      "twitter:title",
+      "<title>"
+    ],
+    "image_url": [
+      "og:image",
+      "twitter:image"
+    ],
+    "modified_at": [
+      "article:modified_time",
+      "og:updated_time"
+    ],
+    "published_at": [
+      "article:published_time",
+      "date"
+    ],
+    "section": [
+      "article:section"
+    ],
+    "source_name": [
+      "literal:La Raz\u00f3n de M\u00e9xico"
+    ]
+  },
+  "name": "mx-la-razon-article-meta",
+  "origin": "org",
+  "outputSchemaId": "schema_0760156258209b471aa9",
+  "pageRole": "record",
+  "requiredFields": [
+    "headline",
+    "published_at",
+    "canonical_url"
+  ],
+  "templateId": "mx-la-razon-article-meta"
+}

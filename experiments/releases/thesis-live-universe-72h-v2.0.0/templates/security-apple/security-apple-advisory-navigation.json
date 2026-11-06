@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "title": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "security-apple-advisory-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_dd4d89f457dd27e18d2c",
+  "pageRole": "navigation",
+  "templateId": "security-apple-advisory-navigation"
+}

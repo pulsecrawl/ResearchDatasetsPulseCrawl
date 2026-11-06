@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "title": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "security-oracle-advisory-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_53f4ec2a709d5f7776fa",
+  "pageRole": "navigation",
+  "templateId": "security-oracle-advisory-navigation"
+}

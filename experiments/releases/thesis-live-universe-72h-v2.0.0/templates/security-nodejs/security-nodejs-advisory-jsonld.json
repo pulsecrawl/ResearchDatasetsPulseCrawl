@@ -1,0 +1,43 @@
+{
+  "engine": "jsonld",
+  "mappings": {
+    "advisory_id": [
+      "TechArticle.identifier",
+      "Article.identifier"
+    ],
+    "canonical_url": [
+      "TechArticle.url",
+      "Article.url"
+    ],
+    "published_at": [
+      "TechArticle.datePublished",
+      "Article.datePublished"
+    ],
+    "summary": [
+      "TechArticle.description",
+      "Article.description"
+    ],
+    "title": [
+      "TechArticle.headline",
+      "Article.headline",
+      "TechArticle.name",
+      "Article.name"
+    ],
+    "updated_at": [
+      "TechArticle.dateModified",
+      "Article.dateModified"
+    ],
+    "vendor": [
+      "literal:Node.js Security Releases"
+    ]
+  },
+  "name": "security-nodejs-advisory-jsonld",
+  "origin": "org",
+  "outputSchemaId": "schema_ecd74d55d4ef2673097e",
+  "pageRole": "record",
+  "requiredFields": [
+    "title",
+    "canonical_url"
+  ],
+  "templateId": "security-nodejs-advisory-jsonld"
+}

@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "headline": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "mx-la-silla-rota-article-known-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_2648bf9393485250f53a",
+  "pageRole": "navigation",
+  "templateId": "mx-la-silla-rota-article-known-navigation"
+}

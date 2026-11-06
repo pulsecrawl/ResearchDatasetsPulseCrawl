@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "headline": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "finance-moneyweek-article-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_3b960845ed30914e2576",
+  "pageRole": "navigation",
+  "templateId": "finance-moneyweek-article-navigation"
+}

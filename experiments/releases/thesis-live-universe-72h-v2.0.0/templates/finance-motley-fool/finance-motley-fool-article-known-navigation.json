@@ -1,0 +1,14 @@
+{
+  "engine": "meta",
+  "mappings": {
+    "headline": [
+      "<title>",
+      "og:title"
+    ]
+  },
+  "name": "finance-motley-fool-article-known-navigation",
+  "origin": "org",
+  "outputSchemaId": "schema_eb8cfa169ef421614ffa",
+  "pageRole": "navigation",
+  "templateId": "finance-motley-fool-article-known-navigation"
+}
